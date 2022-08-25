@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace UPC_PI2_Backend.Controllers
+namespace PremierBeef.API.Controllers
 {
     [ApiController]
     [Route("[controller]")]

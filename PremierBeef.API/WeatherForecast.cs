@@ -1,4 +1,4 @@
-namespace UPC_PI2_Backend
+namespace PremierBeef.API
 {
     public class WeatherForecast
     {
