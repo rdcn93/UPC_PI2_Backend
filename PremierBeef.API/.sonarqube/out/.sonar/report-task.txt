@@ -1,0 +1,6 @@
+projectKey=UPC_PI2_PremierBeef
+serverUrl=http://localhost:9000
+serverVersion=9.6.1.59531
+dashboardUrl=http://localhost:9000/dashboard?id=UPC_PI2_PremierBeef
+ceTaskId=AYOa_6NT9rroiMYuZZtX
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYOa_6NT9rroiMYuZZtX
