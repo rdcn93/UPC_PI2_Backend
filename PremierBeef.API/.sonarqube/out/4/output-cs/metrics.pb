@@ -22,9 +22,10 @@ UD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\Controllers\ReclamoControl
 rD	
  "#$%&()*+-.01235689;<=>?@BCDEGHIJLMNOPQRxÇ&(*-3568>@BDJLMOä
 YD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\Controllers\ReclamoTipoController.cs 8r	
- xÇÁ
-UD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\Controllers\ReporteController.cs 8jR[r_	
- !#$%&')*+,./12345789:<=?@ABCEFGHJKNOPQSTUWXYZ\]^_`abcdehijklnopqstuvxÇ ')+.579<CEGJQTWY\^_ablnpsÇ
+ xÇ’
+UD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\Controllers\ReporteController.csG 8j'0NWu~ûß«–r˛	
+ !#$%&()*,-./123456789:<=>?@BCDEGHJKLMOPQSTUVXYZ[\]^_`acdefgijklnoqrstvwxz{|}ÄÅÇÉÑÖÜáàåçéèêíìîïóòöõúùü†°£§•¶®©™´¨≠ÆØ∞±µ∂∑∏πªºΩæ¿¡√ƒ≈∆»… ÃÕŒœ—“”‘’÷◊ÿŸ⁄‹›x
+Ç` &),.13467@BDGMPSUXZ[]^gikntwz|ÅÇÑÖêíîóù†£•®™´≠ÆπªΩ¿∆…ÃŒ—”‘÷◊Ç
 QD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\Controllers\RolController.cs 8r	
  xÇë
 [D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\Controllers\TipoDocumentoController.cs 8j

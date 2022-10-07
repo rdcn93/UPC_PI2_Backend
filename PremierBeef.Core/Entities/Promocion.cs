@@ -12,5 +12,7 @@
         public DateTime fecRegistro { get; set; }
         public DateTime fecModificacion { get; set; }
         public List<int> productosIds { get; set; }
+        public string fecInicioStr { get; set; }
+        public string fecFinStr { get; set; }
     }
 }

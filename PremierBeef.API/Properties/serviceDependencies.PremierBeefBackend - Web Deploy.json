@@ -1,15 +1,16 @@
 {
   "dependencies": {
-    "apis1": {
-      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/PremierBeefAPIapi/apis/PremierBeefAPI",
-      "type": "apis.azure"
-    },
     "mssql1": {
       "secretStore": "AzureAppSettings",
       "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/upcpi2server/databases/PremierBeef",
       "type": "mssql.azure",
       "connectionId": "ConnectionStrings:DevConnection",
       "dynamicId": null
+    },
+    "apis1": {
+      "apiEndpoint": "https://premierbeefapiapi.azure-api.net/",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/PremierBeefAPIapi/apis/PremierBeefAPI",
+      "type": "apis.azure"
     }
   }
 }

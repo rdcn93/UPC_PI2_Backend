@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.IdentityModel.Tokens;
 using PremierBeef.Application.InputModel;
@@ -12,6 +13,7 @@ using System.Text;
 
 namespace PremierBeef.API.Controllers
 {
+    [EnableCors("CorsPolicy")]
     [Route("api/[controller]")]
     [ApiController]
     public class AuthenticationController : ControllerBase
@@ -90,8 +92,6 @@ namespace PremierBeef.API.Controllers
                 {"usuario", user.usuario}
             };
 
-
-
             var callback = QueryHelpers.AddQueryString(forgotPassword.ClientURI, param);
             callback = callback.Replace("michi", "#");
             var message = new Message(new string[] { user.correo }, "Reset password token", callback, null);
@@ -112,7 +112,7 @@ namespace PremierBeef.API.Controllers
 
             var user = await _usuarioAuthService.GetUserByCorreo(resetPassword.email);
             if (user == null)
-                return BadRequest("Invalid Request");
+                return BadRequest("No se encontró un usuario con ese correo");
 
             if (resetPassword.password != null && resetPassword.password != String.Empty)
             {
@@ -122,7 +122,6 @@ namespace PremierBeef.API.Controllers
 
                 var result = _usuarioAuthService.UpdateContraseña(resetPassword.email, encriptedPassword);
             }
-
 
             //var resetPassResult = await _userManager.ResetPasswordAsync(user, resetPasswordDto.Token, resetPasswordDto.Password);
             //if (!resetPassResult.Succeeded)

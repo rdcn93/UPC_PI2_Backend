@@ -42,9 +42,9 @@
                 "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Test/UsuarioControllerTest.cs",
                 "region": {
                   "startLine": 46,
-                  "startColumn": 35,
+                  "startColumn": 30,
                   "endLine": 46,
-                  "endColumn": 66
+                  "endColumn": 61
                 }
               }
             }
@@ -63,9 +63,9 @@
                 "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Test/UsuarioControllerTest.cs",
                 "region": {
                   "startLine": 46,
-                  "startColumn": 35,
+                  "startColumn": 30,
                   "endLine": 46,
-                  "endColumn": 66
+                  "endColumn": 61
                 }
               }
             }
@@ -317,7 +317,7 @@
                   "startLine": 46,
                   "startColumn": 29,
                   "endLine": 46,
-                  "endColumn": 83
+                  "endColumn": 78
                 }
               }
             }

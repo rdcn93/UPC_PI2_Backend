@@ -32,7 +32,9 @@ namespace PremierBeef.Infrastructure.Repository
                         descripcion = us.Descripcion ?? "",
                         fecInicio = us.FecInicio,
                         fecFin = us.FecFin,
-                        porcentajeDescuento = us.PorcentajeDescuento
+                        porcentajeDescuento = us.PorcentajeDescuento,
+                        fecInicioStr = us.FecInicio.ToString("MM/dd/yyyy"),
+                        fecFinStr = us.FecFin.ToString("MM/dd/yyyy")
                     });
                 }
             }

@@ -15,6 +15,7 @@ namespace PremierBeef.Application.ViewModels
             tipoReclamo = reclamo.tipoReclamo;
             respuesta = reclamo.respuesta;
             idUsuarioRespuesta = reclamo.idUsuarioRespuesta;
+            estadoReclamo = reclamo.estadoReclamo;
         }
 
         public int id { get; set; }
@@ -26,5 +27,6 @@ namespace PremierBeef.Application.ViewModels
         public int idTipoReclamo { get; set; }
         public string tipoReclamo { get; set; }
         public string respuesta { get; set; }
+        public int estadoReclamo { get; set; }
     }
 }

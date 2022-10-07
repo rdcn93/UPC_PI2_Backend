@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Mvc;
 using PremierBeef.Application.InputModel;
 using PremierBeef.Application.Services.Cliente;
 using PremierBeef.Application.ViewModels;
 
 namespace PremierBeef.API.Controllers
 {
+    [EnableCors("CorsPolicy")]
     [Route("api/[controller]")]
     [ApiController]
     public class ClienteController : Controller
@@ -49,9 +51,13 @@ namespace PremierBeef.API.Controllers
         public async Task<IActionResult> Register([FromBody] ClienteModel userInputModel)
         {
             var clienteExiste = await _clienteService.GetClienteByCliente(userInputModel);
+            var clienteNroDocExiste = await _clienteService.GetClienteByNroDocumento(userInputModel);
 
             if (clienteExiste != null)
                 return BadRequest("Ya existe un cliente con ese nombre y apellidos");
+
+            if(clienteNroDocExiste != null)
+                return BadRequest("Ya existe un cliente con ese número y tipo de documento");
 
             var id = await _clienteService.AddCliente(userInputModel);
 
@@ -65,9 +71,13 @@ namespace PremierBeef.API.Controllers
         public async Task<IActionResult> Edit([FromBody] ClienteModel userInputModel)
         {
             var clienteExiste = await _clienteService.GetClienteByCliente(userInputModel);
+            var clienteNroDocExiste = await _clienteService.GetClienteByNroDocumento(userInputModel);
 
             if (clienteExiste != null && clienteExiste.id != userInputModel.id)
                 return BadRequest("Ya existe un cliente con ese nombre y apellidos");
+
+            if (clienteNroDocExiste != null && clienteNroDocExiste.id != userInputModel.id)
+                return BadRequest("Ya existe un cliente con ese número y tipo de documento");
 
             if (ModelState.IsValid)
             {

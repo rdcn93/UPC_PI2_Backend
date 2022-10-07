@@ -16,7 +16,7 @@
         public DateTime fecReclamo { get; set; }
         public DateTime fecRespuesta { get; set; }
         public int estadoReclamo { get; set; }
-        public int estado { get; set; }
+        public bool estado { get; set; }
 
     }
 }

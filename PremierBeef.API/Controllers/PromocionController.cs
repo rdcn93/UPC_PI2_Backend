@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Mvc;
 using PremierBeef.Application.InputModel;
 using PremierBeef.Application.Services.Promocion;
 using PremierBeef.Application.ViewModels;
 
 namespace PremierBeef.API.Controllers
 {
+    [EnableCors("CorsPolicy")]
     [Route("api/[controller]")]
     [ApiController]
     public class PromocionController : Controller
@@ -48,6 +50,9 @@ namespace PremierBeef.API.Controllers
         [HttpPost]
         public async Task<IActionResult> Register([FromBody] PromocionModel userInputModel)
         {
+            if(userInputModel.fecInicio > userInputModel.fecFin)
+                return NotFound("La fecha de Inicio debe ser mayor a la de Fin");
+
             var id = await _promocionService.AddPromocion(userInputModel);
 
             if (id != 0)

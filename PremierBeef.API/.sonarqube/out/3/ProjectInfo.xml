@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
-  <ProjectName>PremierBeef.Application</ProjectName>
+  <ProjectName>PremierBeef.Infrastructure</ProjectName>
   <ProjectLanguage>C#</ProjectLanguage>
   <ProjectType>Product</ProjectType>
-  <ProjectGuid>125f38b3-cba6-4ce7-b3ad-2fb6a2dd420e</ProjectGuid>
-  <FullPath>D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Application\PremierBeef.Application.csproj</FullPath>
+  <ProjectGuid>7b945790-0aa7-4080-9e48-c80597924d48</ProjectGuid>
+  <FullPath>D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Infrastructure\PremierBeef.Infrastructure.csproj</FullPath>
   <IsExcluded>false</IsExcluded>
   <AnalysisResults>
     <AnalysisResult Id="FilesToAnalyze" Location="D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\.sonarqube\conf\3\FilesToAnalyze.txt" />

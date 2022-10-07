@@ -3,7 +3,7 @@ using PremierBeef.Application.Services.Usuario;
 using PremierBeef.Application.ViewModels;
 using PremierBeef.Core.Entities;
 
-namespace PremierBeef.Test
+namespace PremierBeef.Test.FakeServices
 {
     public class UsuarioServiceFake : IUsuarioService
     {
@@ -11,11 +11,11 @@ namespace PremierBeef.Test
         public UsuarioServiceFake()
         {
             _usuarios = new List<UsuarioViewModel>() {
-                new UsuarioViewModel(new Usuario{ id = 1 }){ },
-                new UsuarioViewModel(new Usuario{ id = 2}){ },
-                new UsuarioViewModel(new Usuario{ id = 3}){ },
-                new UsuarioViewModel(new Usuario{ id = 4}){ },
-                new UsuarioViewModel(new Usuario{id = 12}){ }
+                new UsuarioViewModel(new Usuario{ id = 1, nombre = "Raul", apePaterno = "Castañeda", apeMaterno = "Najar", correo = "rdcn93@hotmail.com" }){ },
+                new UsuarioViewModel(new Usuario{ id = 2, nombre = "Juan", apePaterno = "Salas", apeMaterno = "Lopez", correo = "abc123@hotmail.com"}){ },
+                new UsuarioViewModel(new Usuario{ id = 3, nombre = "Luis", apePaterno = "Gomez", apeMaterno = "Huaman", correo = "zxc456@hotmail.com"}){ },
+                new UsuarioViewModel(new Usuario{ id = 4, nombre = "Jose", apePaterno = "Huaman", apeMaterno = "Salas", correo = "qwe789@hotmail.com"}){ },
+                new UsuarioViewModel(new Usuario{id = 12, nombre = "Martin", apePaterno = "Lopez", apeMaterno = "Gomez", correo = "bnm345@hotmail.com"}){ }
             };
         }
         public async Task<int> AddUsuario(UsuarioModel newU)
@@ -89,9 +89,20 @@ namespace PremierBeef.Test
 
         public async Task<UsuarioViewModel> GetUserByCorreo(string correo)
         {
-            var existing = _usuarios.First(a => a.correo == correo);
+            UsuarioViewModel productVM = null;
+            try
+            {
+                var user = _usuarios.First(a => a.correo == correo);
 
-            return existing;
+                if (user != null)
+                    productVM = user;
+
+            }
+            catch (Exception)
+            {
+            }
+
+            return productVM;
         }
 
         public async Task<UsuarioViewModel> GetUserById(int id)

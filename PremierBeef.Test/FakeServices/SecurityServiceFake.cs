@@ -1,8 +1,8 @@
 ﻿using PremierBeef.Application.Services.Security;
 
-namespace PremierBeef.Test
+namespace PremierBeef.Test.FakeServices
 {
-    public class SecurityServiceFake : ISecurityService
+    internal class SecurityServiceFake : ISecurityService
     {
         public SecurityServiceFake()
         {

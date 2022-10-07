@@ -14,142 +14,6 @@
         {
           "ruleId": "CS8618",
           "level": "warning",
-          "message": "El elemento propiedad \"nombre\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Almacen.cs",
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 23,
-                  "endLine": 6,
-                  "endColumn": 29
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Almacen.cs",
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 23,
-                  "endLine": 6,
-                  "endColumn": 29
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"descripcion\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Almacen.cs",
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 23,
-                  "endLine": 7,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Almacen.cs",
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 23,
-                  "endLine": 7,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"direccion\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Almacen.cs",
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 23,
-                  "endLine": 8,
-                  "endColumn": 32
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Almacen.cs",
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 23,
-                  "endLine": 8,
-                  "endColumn": 32
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"telefono\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Almacen.cs",
-                "region": {
-                  "startLine": 9,
-                  "startColumn": 23,
-                  "endLine": 9,
-                  "endColumn": 31
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Almacen.cs",
-                "region": {
-                  "startLine": 9,
-                  "startColumn": 23,
-                  "endLine": 9,
-                  "endColumn": 31
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
           "message": "El elemento propiedad \"usuario\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
           "locations": [
             {
@@ -392,74 +256,6 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Categoria.cs",
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 23,
-                  "endLine": 6,
-                  "endColumn": 29
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Categoria.cs",
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 23,
-                  "endLine": 6,
-                  "endColumn": 29
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"descripcion\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Categoria.cs",
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 23,
-                  "endLine": 7,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Categoria.cs",
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 23,
-                  "endLine": 7,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"nombre\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
                 "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/TipoDocumento.cs",
                 "region": {
                   "startLine": 6,
@@ -576,6 +372,2250 @@
             {
               "physicalLocation": {
                 "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Rol.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"detalle\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteVentas.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteVentas.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"usuarioRegistro\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteVentas.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteVentas.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"usuarioRegistroCompleto\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteVentas.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 23,
+                  "endLine": 8,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteVentas.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 23,
+                  "endLine": 8,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"fechaReclamo\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteVentas.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 23,
+                  "endLine": 9,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteVentas.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 23,
+                  "endLine": 9,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"tipoReclamo\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteVentas.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 23,
+                  "endLine": 10,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteVentas.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 23,
+                  "endLine": 10,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"cliente\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteVentas.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 23,
+                  "endLine": 12,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteVentas.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 23,
+                  "endLine": 12,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"respuesta\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteVentas.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 23,
+                  "endLine": 13,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteVentas.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 23,
+                  "endLine": 13,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"usuarioRespuesta\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteVentas.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 23,
+                  "endLine": 14,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteVentas.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 23,
+                  "endLine": 14,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"usuarioRespuestaCompleto\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteVentas.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 23,
+                  "endLine": 15,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteVentas.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 23,
+                  "endLine": 15,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"fechaRespuesta\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteVentas.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 23,
+                  "endLine": 16,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteVentas.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 23,
+                  "endLine": 16,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"detalle\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteStock.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteStock.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"usuarioRegistro\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteStock.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteStock.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"usuarioRegistroCompleto\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteStock.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 23,
+                  "endLine": 8,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteStock.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 23,
+                  "endLine": 8,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"fechaReclamo\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteStock.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 23,
+                  "endLine": 9,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteStock.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 23,
+                  "endLine": 9,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"tipoReclamo\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteStock.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 23,
+                  "endLine": 10,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteStock.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 23,
+                  "endLine": 10,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"cliente\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteStock.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 23,
+                  "endLine": 12,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteStock.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 23,
+                  "endLine": 12,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"respuesta\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteStock.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 23,
+                  "endLine": 13,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteStock.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 23,
+                  "endLine": 13,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"usuarioRespuesta\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteStock.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 23,
+                  "endLine": 14,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteStock.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 23,
+                  "endLine": 14,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"usuarioRespuestaCompleto\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteStock.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 23,
+                  "endLine": 15,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteStock.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 23,
+                  "endLine": 15,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"fechaRespuesta\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteStock.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 23,
+                  "endLine": 16,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteStock.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 23,
+                  "endLine": 16,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"detalle\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteReclamos.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteReclamos.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"usuarioRegistro\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteReclamos.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteReclamos.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"usuarioRegistroCompleto\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteReclamos.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 23,
+                  "endLine": 8,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteReclamos.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 23,
+                  "endLine": 8,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"fechaReclamo\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteReclamos.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 23,
+                  "endLine": 9,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteReclamos.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 23,
+                  "endLine": 9,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"tipoReclamo\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteReclamos.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 23,
+                  "endLine": 10,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteReclamos.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 23,
+                  "endLine": 10,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"cliente\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteReclamos.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 23,
+                  "endLine": 12,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteReclamos.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 23,
+                  "endLine": 12,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"respuesta\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteReclamos.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 23,
+                  "endLine": 13,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteReclamos.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 23,
+                  "endLine": 13,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"usuarioRespuesta\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteReclamos.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 23,
+                  "endLine": 14,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteReclamos.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 23,
+                  "endLine": 14,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"usuarioRespuestaCompleto\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteReclamos.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 23,
+                  "endLine": 15,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteReclamos.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 23,
+                  "endLine": 15,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"fechaRespuesta\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteReclamos.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 23,
+                  "endLine": 16,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteReclamos.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 23,
+                  "endLine": 16,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"detalle\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReportePedidos.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReportePedidos.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"usuarioRegistro\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReportePedidos.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReportePedidos.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"usuarioRegistroCompleto\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReportePedidos.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 23,
+                  "endLine": 8,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReportePedidos.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 23,
+                  "endLine": 8,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"fechaReclamo\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReportePedidos.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 23,
+                  "endLine": 9,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReportePedidos.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 23,
+                  "endLine": 9,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"tipoReclamo\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReportePedidos.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 23,
+                  "endLine": 10,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReportePedidos.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 23,
+                  "endLine": 10,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"cliente\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReportePedidos.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 23,
+                  "endLine": 12,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReportePedidos.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 23,
+                  "endLine": 12,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"respuesta\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReportePedidos.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 23,
+                  "endLine": 13,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReportePedidos.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 23,
+                  "endLine": 13,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"usuarioRespuesta\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReportePedidos.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 23,
+                  "endLine": 14,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReportePedidos.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 23,
+                  "endLine": 14,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"usuarioRespuestaCompleto\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReportePedidos.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 23,
+                  "endLine": 15,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReportePedidos.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 23,
+                  "endLine": 15,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"fechaRespuesta\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReportePedidos.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 23,
+                  "endLine": 16,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReportePedidos.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 23,
+                  "endLine": 16,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"detalle\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteDelivery.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteDelivery.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"usuarioRegistro\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteDelivery.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteDelivery.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"usuarioRegistroCompleto\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteDelivery.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 23,
+                  "endLine": 8,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteDelivery.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 23,
+                  "endLine": 8,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"fechaReclamo\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteDelivery.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 23,
+                  "endLine": 9,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteDelivery.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 23,
+                  "endLine": 9,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"tipoReclamo\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteDelivery.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 23,
+                  "endLine": 10,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteDelivery.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 23,
+                  "endLine": 10,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"cliente\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteDelivery.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 23,
+                  "endLine": 12,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteDelivery.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 23,
+                  "endLine": 12,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"respuesta\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteDelivery.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 23,
+                  "endLine": 13,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteDelivery.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 23,
+                  "endLine": 13,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"usuarioRespuesta\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteDelivery.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 23,
+                  "endLine": 14,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteDelivery.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 23,
+                  "endLine": 14,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"usuarioRespuestaCompleto\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteDelivery.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 23,
+                  "endLine": 15,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteDelivery.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 23,
+                  "endLine": 15,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"fechaRespuesta\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteDelivery.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 23,
+                  "endLine": 16,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteDelivery.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 23,
+                  "endLine": 16,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"nombre\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/ReclamoTipo.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/ReclamoTipo.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"descripcion\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/ReclamoTipo.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/ReclamoTipo.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"detalle\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reclamo.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reclamo.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"usuario\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reclamo.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 23,
+                  "endLine": 8,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reclamo.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 23,
+                  "endLine": 8,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"tipoReclamo\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reclamo.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 23,
+                  "endLine": 12,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reclamo.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 23,
+                  "endLine": 12,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"respuesta\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reclamo.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 23,
+                  "endLine": 13,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reclamo.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 23,
+                  "endLine": 13,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"nombre\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Proveedor.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Proveedor.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"descripcion\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Proveedor.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Proveedor.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"direccion\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Proveedor.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 23,
+                  "endLine": 8,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Proveedor.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 23,
+                  "endLine": 8,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"telefono\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Proveedor.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 23,
+                  "endLine": 9,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Proveedor.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 23,
+                  "endLine": 9,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"numeroDocumento\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Proveedor.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 23,
+                  "endLine": 11,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Proveedor.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 23,
+                  "endLine": 11,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"nombre\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Promocion.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Promocion.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"descripcion\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Promocion.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Promocion.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"productosIds\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Promocion.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 26,
+                  "endLine": 14,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Promocion.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 26,
+                  "endLine": 14,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"nombre\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Producto.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Producto.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"descripcion\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Producto.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Producto.cs",
                 "region": {
                   "startLine": 7,
                   "startColumn": 23,
@@ -800,7 +2840,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Producto.cs",
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Categoria.cs",
                 "region": {
                   "startLine": 6,
                   "startColumn": 23,
@@ -813,7 +2853,7 @@
           "relatedLocations": [
             {
               "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Producto.cs",
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Categoria.cs",
                 "region": {
                   "startLine": 6,
                   "startColumn": 23,
@@ -834,7 +2874,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Producto.cs",
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Categoria.cs",
                 "region": {
                   "startLine": 7,
                   "startColumn": 23,
@@ -847,352 +2887,12 @@
           "relatedLocations": [
             {
               "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Producto.cs",
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Categoria.cs",
                 "region": {
                   "startLine": 7,
                   "startColumn": 23,
                   "endLine": 7,
                   "endColumn": 34
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"detalle\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteVentas.cs",
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 23,
-                  "endLine": 6,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteVentas.cs",
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 23,
-                  "endLine": 6,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"usuarioRegistro\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteVentas.cs",
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 23,
-                  "endLine": 7,
-                  "endColumn": 38
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteVentas.cs",
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 23,
-                  "endLine": 7,
-                  "endColumn": 38
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"usuarioRegistroCompleto\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteVentas.cs",
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 23,
-                  "endLine": 8,
-                  "endColumn": 46
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteVentas.cs",
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 23,
-                  "endLine": 8,
-                  "endColumn": 46
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"fechaReclamo\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteVentas.cs",
-                "region": {
-                  "startLine": 9,
-                  "startColumn": 23,
-                  "endLine": 9,
-                  "endColumn": 35
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteVentas.cs",
-                "region": {
-                  "startLine": 9,
-                  "startColumn": 23,
-                  "endLine": 9,
-                  "endColumn": 35
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"tipoReclamo\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteVentas.cs",
-                "region": {
-                  "startLine": 10,
-                  "startColumn": 23,
-                  "endLine": 10,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteVentas.cs",
-                "region": {
-                  "startLine": 10,
-                  "startColumn": 23,
-                  "endLine": 10,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"cliente\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteVentas.cs",
-                "region": {
-                  "startLine": 12,
-                  "startColumn": 23,
-                  "endLine": 12,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteVentas.cs",
-                "region": {
-                  "startLine": 12,
-                  "startColumn": 23,
-                  "endLine": 12,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"respuesta\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteVentas.cs",
-                "region": {
-                  "startLine": 13,
-                  "startColumn": 23,
-                  "endLine": 13,
-                  "endColumn": 32
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteVentas.cs",
-                "region": {
-                  "startLine": 13,
-                  "startColumn": 23,
-                  "endLine": 13,
-                  "endColumn": 32
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"usuarioRespuesta\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteVentas.cs",
-                "region": {
-                  "startLine": 14,
-                  "startColumn": 23,
-                  "endLine": 14,
-                  "endColumn": 39
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteVentas.cs",
-                "region": {
-                  "startLine": 14,
-                  "startColumn": 23,
-                  "endLine": 14,
-                  "endColumn": 39
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"usuarioRespuestaCompleto\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteVentas.cs",
-                "region": {
-                  "startLine": 15,
-                  "startColumn": 23,
-                  "endLine": 15,
-                  "endColumn": 47
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteVentas.cs",
-                "region": {
-                  "startLine": 15,
-                  "startColumn": 23,
-                  "endLine": 15,
-                  "endColumn": 47
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"fechaRespuesta\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteVentas.cs",
-                "region": {
-                  "startLine": 16,
-                  "startColumn": 23,
-                  "endLine": 16,
-                  "endColumn": 37
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteVentas.cs",
-                "region": {
-                  "startLine": 16,
-                  "startColumn": 23,
-                  "endLine": 16,
-                  "endColumn": 37
                 }
               }
             }
@@ -1208,7 +2908,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Promocion.cs",
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Almacen.cs",
                 "region": {
                   "startLine": 6,
                   "startColumn": 23,
@@ -1221,109 +2921,7 @@
           "relatedLocations": [
             {
               "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Promocion.cs",
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 23,
-                  "endLine": 6,
-                  "endColumn": 29
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"descripcion\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Promocion.cs",
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 23,
-                  "endLine": 7,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Promocion.cs",
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 23,
-                  "endLine": 7,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"productosIds\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Promocion.cs",
-                "region": {
-                  "startLine": 14,
-                  "startColumn": 26,
-                  "endLine": 14,
-                  "endColumn": 38
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Promocion.cs",
-                "region": {
-                  "startLine": 14,
-                  "startColumn": 26,
-                  "endLine": 14,
-                  "endColumn": 38
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"nombre\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Proveedor.cs",
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 23,
-                  "endLine": 6,
-                  "endColumn": 29
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Proveedor.cs",
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Almacen.cs",
                 "region": {
                   "startLine": 6,
                   "startColumn": 23,
@@ -1344,7 +2942,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Proveedor.cs",
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Almacen.cs",
                 "region": {
                   "startLine": 7,
                   "startColumn": 23,
@@ -1357,7 +2955,7 @@
           "relatedLocations": [
             {
               "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Proveedor.cs",
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Almacen.cs",
                 "region": {
                   "startLine": 7,
                   "startColumn": 23,
@@ -1378,7 +2976,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Proveedor.cs",
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Almacen.cs",
                 "region": {
                   "startLine": 8,
                   "startColumn": 23,
@@ -1391,7 +2989,7 @@
           "relatedLocations": [
             {
               "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Proveedor.cs",
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Almacen.cs",
                 "region": {
                   "startLine": 8,
                   "startColumn": 23,
@@ -1412,7 +3010,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Proveedor.cs",
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Almacen.cs",
                 "region": {
                   "startLine": 9,
                   "startColumn": 23,
@@ -1425,1610 +3023,12 @@
           "relatedLocations": [
             {
               "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Proveedor.cs",
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Almacen.cs",
                 "region": {
                   "startLine": 9,
                   "startColumn": 23,
                   "endLine": 9,
                   "endColumn": 31
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"numeroDocumento\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Proveedor.cs",
-                "region": {
-                  "startLine": 11,
-                  "startColumn": 23,
-                  "endLine": 11,
-                  "endColumn": 38
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Proveedor.cs",
-                "region": {
-                  "startLine": 11,
-                  "startColumn": 23,
-                  "endLine": 11,
-                  "endColumn": 38
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"nombre\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/ReclamoTipo.cs",
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 23,
-                  "endLine": 6,
-                  "endColumn": 29
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/ReclamoTipo.cs",
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 23,
-                  "endLine": 6,
-                  "endColumn": 29
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"descripcion\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/ReclamoTipo.cs",
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 23,
-                  "endLine": 7,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/ReclamoTipo.cs",
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 23,
-                  "endLine": 7,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"detalle\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteStock.cs",
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 23,
-                  "endLine": 6,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteStock.cs",
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 23,
-                  "endLine": 6,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"usuarioRegistro\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteStock.cs",
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 23,
-                  "endLine": 7,
-                  "endColumn": 38
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteStock.cs",
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 23,
-                  "endLine": 7,
-                  "endColumn": 38
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"usuarioRegistroCompleto\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteStock.cs",
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 23,
-                  "endLine": 8,
-                  "endColumn": 46
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteStock.cs",
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 23,
-                  "endLine": 8,
-                  "endColumn": 46
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"fechaReclamo\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteStock.cs",
-                "region": {
-                  "startLine": 9,
-                  "startColumn": 23,
-                  "endLine": 9,
-                  "endColumn": 35
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteStock.cs",
-                "region": {
-                  "startLine": 9,
-                  "startColumn": 23,
-                  "endLine": 9,
-                  "endColumn": 35
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"tipoReclamo\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteStock.cs",
-                "region": {
-                  "startLine": 10,
-                  "startColumn": 23,
-                  "endLine": 10,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteStock.cs",
-                "region": {
-                  "startLine": 10,
-                  "startColumn": 23,
-                  "endLine": 10,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"cliente\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteStock.cs",
-                "region": {
-                  "startLine": 12,
-                  "startColumn": 23,
-                  "endLine": 12,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteStock.cs",
-                "region": {
-                  "startLine": 12,
-                  "startColumn": 23,
-                  "endLine": 12,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"respuesta\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteStock.cs",
-                "region": {
-                  "startLine": 13,
-                  "startColumn": 23,
-                  "endLine": 13,
-                  "endColumn": 32
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteStock.cs",
-                "region": {
-                  "startLine": 13,
-                  "startColumn": 23,
-                  "endLine": 13,
-                  "endColumn": 32
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"usuarioRespuesta\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteStock.cs",
-                "region": {
-                  "startLine": 14,
-                  "startColumn": 23,
-                  "endLine": 14,
-                  "endColumn": 39
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteStock.cs",
-                "region": {
-                  "startLine": 14,
-                  "startColumn": 23,
-                  "endLine": 14,
-                  "endColumn": 39
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"usuarioRespuestaCompleto\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteStock.cs",
-                "region": {
-                  "startLine": 15,
-                  "startColumn": 23,
-                  "endLine": 15,
-                  "endColumn": 47
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteStock.cs",
-                "region": {
-                  "startLine": 15,
-                  "startColumn": 23,
-                  "endLine": 15,
-                  "endColumn": 47
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"fechaRespuesta\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteStock.cs",
-                "region": {
-                  "startLine": 16,
-                  "startColumn": 23,
-                  "endLine": 16,
-                  "endColumn": 37
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteStock.cs",
-                "region": {
-                  "startLine": 16,
-                  "startColumn": 23,
-                  "endLine": 16,
-                  "endColumn": 37
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"detalle\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reclamo.cs",
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 23,
-                  "endLine": 6,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reclamo.cs",
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 23,
-                  "endLine": 6,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"usuario\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reclamo.cs",
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 23,
-                  "endLine": 8,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reclamo.cs",
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 23,
-                  "endLine": 8,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"tipoReclamo\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reclamo.cs",
-                "region": {
-                  "startLine": 12,
-                  "startColumn": 23,
-                  "endLine": 12,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reclamo.cs",
-                "region": {
-                  "startLine": 12,
-                  "startColumn": 23,
-                  "endLine": 12,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"respuesta\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reclamo.cs",
-                "region": {
-                  "startLine": 13,
-                  "startColumn": 23,
-                  "endLine": 13,
-                  "endColumn": 32
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reclamo.cs",
-                "region": {
-                  "startLine": 13,
-                  "startColumn": 23,
-                  "endLine": 13,
-                  "endColumn": 32
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"detalle\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteReclamos.cs",
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 23,
-                  "endLine": 6,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteReclamos.cs",
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 23,
-                  "endLine": 6,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"usuarioRegistro\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteReclamos.cs",
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 23,
-                  "endLine": 7,
-                  "endColumn": 38
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteReclamos.cs",
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 23,
-                  "endLine": 7,
-                  "endColumn": 38
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"usuarioRegistroCompleto\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteReclamos.cs",
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 23,
-                  "endLine": 8,
-                  "endColumn": 46
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteReclamos.cs",
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 23,
-                  "endLine": 8,
-                  "endColumn": 46
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"fechaReclamo\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteReclamos.cs",
-                "region": {
-                  "startLine": 9,
-                  "startColumn": 23,
-                  "endLine": 9,
-                  "endColumn": 35
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteReclamos.cs",
-                "region": {
-                  "startLine": 9,
-                  "startColumn": 23,
-                  "endLine": 9,
-                  "endColumn": 35
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"tipoReclamo\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteReclamos.cs",
-                "region": {
-                  "startLine": 10,
-                  "startColumn": 23,
-                  "endLine": 10,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteReclamos.cs",
-                "region": {
-                  "startLine": 10,
-                  "startColumn": 23,
-                  "endLine": 10,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"cliente\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteReclamos.cs",
-                "region": {
-                  "startLine": 12,
-                  "startColumn": 23,
-                  "endLine": 12,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteReclamos.cs",
-                "region": {
-                  "startLine": 12,
-                  "startColumn": 23,
-                  "endLine": 12,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"respuesta\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteReclamos.cs",
-                "region": {
-                  "startLine": 13,
-                  "startColumn": 23,
-                  "endLine": 13,
-                  "endColumn": 32
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteReclamos.cs",
-                "region": {
-                  "startLine": 13,
-                  "startColumn": 23,
-                  "endLine": 13,
-                  "endColumn": 32
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"usuarioRespuesta\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteReclamos.cs",
-                "region": {
-                  "startLine": 14,
-                  "startColumn": 23,
-                  "endLine": 14,
-                  "endColumn": 39
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteReclamos.cs",
-                "region": {
-                  "startLine": 14,
-                  "startColumn": 23,
-                  "endLine": 14,
-                  "endColumn": 39
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"usuarioRespuestaCompleto\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteReclamos.cs",
-                "region": {
-                  "startLine": 15,
-                  "startColumn": 23,
-                  "endLine": 15,
-                  "endColumn": 47
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteReclamos.cs",
-                "region": {
-                  "startLine": 15,
-                  "startColumn": 23,
-                  "endLine": 15,
-                  "endColumn": 47
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"fechaRespuesta\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteReclamos.cs",
-                "region": {
-                  "startLine": 16,
-                  "startColumn": 23,
-                  "endLine": 16,
-                  "endColumn": 37
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteReclamos.cs",
-                "region": {
-                  "startLine": 16,
-                  "startColumn": 23,
-                  "endLine": 16,
-                  "endColumn": 37
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"detalle\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteDelivery.cs",
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 23,
-                  "endLine": 6,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteDelivery.cs",
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 23,
-                  "endLine": 6,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"usuarioRegistro\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteDelivery.cs",
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 23,
-                  "endLine": 7,
-                  "endColumn": 38
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteDelivery.cs",
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 23,
-                  "endLine": 7,
-                  "endColumn": 38
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"usuarioRegistroCompleto\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteDelivery.cs",
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 23,
-                  "endLine": 8,
-                  "endColumn": 46
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteDelivery.cs",
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 23,
-                  "endLine": 8,
-                  "endColumn": 46
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"fechaReclamo\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteDelivery.cs",
-                "region": {
-                  "startLine": 9,
-                  "startColumn": 23,
-                  "endLine": 9,
-                  "endColumn": 35
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteDelivery.cs",
-                "region": {
-                  "startLine": 9,
-                  "startColumn": 23,
-                  "endLine": 9,
-                  "endColumn": 35
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"tipoReclamo\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteDelivery.cs",
-                "region": {
-                  "startLine": 10,
-                  "startColumn": 23,
-                  "endLine": 10,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteDelivery.cs",
-                "region": {
-                  "startLine": 10,
-                  "startColumn": 23,
-                  "endLine": 10,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"cliente\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteDelivery.cs",
-                "region": {
-                  "startLine": 12,
-                  "startColumn": 23,
-                  "endLine": 12,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteDelivery.cs",
-                "region": {
-                  "startLine": 12,
-                  "startColumn": 23,
-                  "endLine": 12,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"respuesta\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteDelivery.cs",
-                "region": {
-                  "startLine": 13,
-                  "startColumn": 23,
-                  "endLine": 13,
-                  "endColumn": 32
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteDelivery.cs",
-                "region": {
-                  "startLine": 13,
-                  "startColumn": 23,
-                  "endLine": 13,
-                  "endColumn": 32
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"usuarioRespuesta\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteDelivery.cs",
-                "region": {
-                  "startLine": 14,
-                  "startColumn": 23,
-                  "endLine": 14,
-                  "endColumn": 39
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteDelivery.cs",
-                "region": {
-                  "startLine": 14,
-                  "startColumn": 23,
-                  "endLine": 14,
-                  "endColumn": 39
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"usuarioRespuestaCompleto\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteDelivery.cs",
-                "region": {
-                  "startLine": 15,
-                  "startColumn": 23,
-                  "endLine": 15,
-                  "endColumn": 47
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteDelivery.cs",
-                "region": {
-                  "startLine": 15,
-                  "startColumn": 23,
-                  "endLine": 15,
-                  "endColumn": 47
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"fechaRespuesta\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteDelivery.cs",
-                "region": {
-                  "startLine": 16,
-                  "startColumn": 23,
-                  "endLine": 16,
-                  "endColumn": 37
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReporteDelivery.cs",
-                "region": {
-                  "startLine": 16,
-                  "startColumn": 23,
-                  "endLine": 16,
-                  "endColumn": 37
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"detalle\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReportePedidos.cs",
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 23,
-                  "endLine": 6,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReportePedidos.cs",
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 23,
-                  "endLine": 6,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"usuarioRegistro\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReportePedidos.cs",
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 23,
-                  "endLine": 7,
-                  "endColumn": 38
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReportePedidos.cs",
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 23,
-                  "endLine": 7,
-                  "endColumn": 38
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"usuarioRegistroCompleto\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReportePedidos.cs",
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 23,
-                  "endLine": 8,
-                  "endColumn": 46
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReportePedidos.cs",
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 23,
-                  "endLine": 8,
-                  "endColumn": 46
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"fechaReclamo\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReportePedidos.cs",
-                "region": {
-                  "startLine": 9,
-                  "startColumn": 23,
-                  "endLine": 9,
-                  "endColumn": 35
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReportePedidos.cs",
-                "region": {
-                  "startLine": 9,
-                  "startColumn": 23,
-                  "endLine": 9,
-                  "endColumn": 35
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"tipoReclamo\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReportePedidos.cs",
-                "region": {
-                  "startLine": 10,
-                  "startColumn": 23,
-                  "endLine": 10,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReportePedidos.cs",
-                "region": {
-                  "startLine": 10,
-                  "startColumn": 23,
-                  "endLine": 10,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"cliente\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReportePedidos.cs",
-                "region": {
-                  "startLine": 12,
-                  "startColumn": 23,
-                  "endLine": 12,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReportePedidos.cs",
-                "region": {
-                  "startLine": 12,
-                  "startColumn": 23,
-                  "endLine": 12,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"respuesta\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReportePedidos.cs",
-                "region": {
-                  "startLine": 13,
-                  "startColumn": 23,
-                  "endLine": 13,
-                  "endColumn": 32
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReportePedidos.cs",
-                "region": {
-                  "startLine": 13,
-                  "startColumn": 23,
-                  "endLine": 13,
-                  "endColumn": 32
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"usuarioRespuesta\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReportePedidos.cs",
-                "region": {
-                  "startLine": 14,
-                  "startColumn": 23,
-                  "endLine": 14,
-                  "endColumn": 39
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReportePedidos.cs",
-                "region": {
-                  "startLine": 14,
-                  "startColumn": 23,
-                  "endLine": 14,
-                  "endColumn": 39
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"usuarioRespuestaCompleto\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReportePedidos.cs",
-                "region": {
-                  "startLine": 15,
-                  "startColumn": 23,
-                  "endLine": 15,
-                  "endColumn": 47
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReportePedidos.cs",
-                "region": {
-                  "startLine": 15,
-                  "startColumn": 23,
-                  "endLine": 15,
-                  "endColumn": 47
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"fechaRespuesta\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReportePedidos.cs",
-                "region": {
-                  "startLine": 16,
-                  "startColumn": 23,
-                  "endLine": 16,
-                  "endColumn": 37
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Core/Entities/Reportes/ReportePedidos.cs",
-                "region": {
-                  "startLine": 16,
-                  "startColumn": 23,
-                  "endLine": 16,
-                  "endColumn": 37
                 }
               }
             }

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Mvc;
 using PremierBeef.Application.InputModel;
 using PremierBeef.Application.Services.Security;
 using PremierBeef.Application.Services.Usuario;
@@ -6,6 +7,7 @@ using PremierBeef.Application.ViewModels;
 
 namespace PremierBeef.API.Controllers
 {
+    [EnableCors("CorsPolicy")]
     [Route("api/[controller]")]
     [ApiController]
     public class UsuarioController : ControllerBase

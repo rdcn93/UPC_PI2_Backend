@@ -16,4 +16,5 @@ UD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\Controllers\UsuarioControl
 ?D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\Program.cswindows-1252r
 gD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\obj\Debug\net6.0\PremierBeef.API.GlobalUsings.g.csutf-8
 tD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8p
-eD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\obj\Debug\net6.0\PremierBeef.API.AssemblyInfo.csutf-8
+eD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\obj\Debug\net6.0\PremierBeef.API.AssemblyInfo.csutf-8ƒ
+xD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\obj\Debug\net6.0\PremierBeef.API.MvcApplicationPartsAssemblyInfo.csutf-8

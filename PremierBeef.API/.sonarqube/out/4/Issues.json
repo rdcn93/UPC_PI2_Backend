@@ -167,9 +167,9 @@
               "resultFile": {
                 "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.API/Controllers/ReporteController.cs",
                 "region": {
-                  "startLine": 82,
+                  "startLine": 39,
                   "startColumn": 13,
-                  "endLine": 82,
+                  "endLine": 39,
                   "endColumn": 33
                 }
               }
@@ -188,9 +188,177 @@
               "resultFile": {
                 "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.API/Controllers/ReporteController.cs",
                 "region": {
-                  "startLine": 91,
+                  "startLine": 48,
                   "startColumn": 13,
-                  "endLine": 91,
+                  "endLine": 48,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.API/Controllers/ReporteController.cs",
+                "region": {
+                  "startLine": 78,
+                  "startColumn": 13,
+                  "endLine": 78,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.API/Controllers/ReporteController.cs",
+                "region": {
+                  "startLine": 87,
+                  "startColumn": 13,
+                  "endLine": 87,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.API/Controllers/ReporteController.cs",
+                "region": {
+                  "startLine": 117,
+                  "startColumn": 13,
+                  "endLine": 117,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.API/Controllers/ReporteController.cs",
+                "region": {
+                  "startLine": 126,
+                  "startColumn": 13,
+                  "endLine": 126,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.API/Controllers/ReporteController.cs",
+                "region": {
+                  "startLine": 158,
+                  "startColumn": 13,
+                  "endLine": 158,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.API/Controllers/ReporteController.cs",
+                "region": {
+                  "startLine": 167,
+                  "startColumn": 13,
+                  "endLine": 167,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.API/Controllers/ReporteController.cs",
+                "region": {
+                  "startLine": 199,
+                  "startColumn": 13,
+                  "endLine": 199,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.API/Controllers/ReporteController.cs",
+                "region": {
+                  "startLine": 208,
+                  "startColumn": 13,
+                  "endLine": 208,
                   "endColumn": 37
                 }
               }
@@ -291,11 +459,137 @@
           "locations": [
             {
               "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.API/Controllers/PromocionController.cs",
+                "region": {
+                  "startLine": 64,
+                  "startColumn": 21,
+                  "endLine": 64,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'result'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.API/Controllers/ClienteController.cs",
+                "region": {
+                  "startLine": 74,
+                  "startColumn": 21,
+                  "endLine": 74,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'result'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.API/Controllers/ProductoController.cs",
+                "region": {
+                  "startLine": 77,
+                  "startColumn": 21,
+                  "endLine": 77,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'result'.",
+          "locations": [
+            {
+              "resultFile": {
                 "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.API/Controllers/UsuarioController.cs",
                 "region": {
                   "startLine": 102,
                   "startColumn": 21,
                   "endLine": 102,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'result'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.API/Controllers/ReclamoController.cs",
+                "region": {
+                  "startLine": 64,
+                  "startColumn": 21,
+                  "endLine": 64,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'result'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.API/Controllers/CategoriaController.cs",
+                "region": {
+                  "startLine": 64,
+                  "startColumn": 21,
+                  "endLine": 64,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'result'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.API/Controllers/ProveedorController.cs",
+                "region": {
+                  "startLine": 64,
+                  "startColumn": 21,
+                  "endLine": 64,
                   "endColumn": 27
                 }
               }
@@ -348,90 +642,6 @@
           }
         },
         {
-          "ruleId": "S1481",
-          "level": "warning",
-          "message": "Remove the unused local variable 'result'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.API/Controllers/CategoriaController.cs",
-                "region": {
-                  "startLine": 64,
-                  "startColumn": 21,
-                  "endLine": 64,
-                  "endColumn": 27
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1481",
-          "level": "warning",
-          "message": "Remove the unused local variable 'result'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.API/Controllers/ReclamoController.cs",
-                "region": {
-                  "startLine": 64,
-                  "startColumn": 21,
-                  "endLine": 64,
-                  "endColumn": 27
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1481",
-          "level": "warning",
-          "message": "Remove the unused local variable 'result'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.API/Controllers/ClienteController.cs",
-                "region": {
-                  "startLine": 74,
-                  "startColumn": 21,
-                  "endLine": 74,
-                  "endColumn": 27
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1481",
-          "level": "warning",
-          "message": "Remove the unused local variable 'result'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.API/Controllers/ProveedorController.cs",
-                "region": {
-                  "startLine": 64,
-                  "startColumn": 21,
-                  "endLine": 64,
-                  "endColumn": 27
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "S5122",
           "level": "warning",
           "message": "Make sure this permissive CORS policy is safe here.",
@@ -444,48 +654,6 @@
                   "startColumn": 18,
                   "endLine": 140,
                   "endColumn": 26
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1481",
-          "level": "warning",
-          "message": "Remove the unused local variable 'result'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.API/Controllers/PromocionController.cs",
-                "region": {
-                  "startLine": 64,
-                  "startColumn": 21,
-                  "endLine": 64,
-                  "endColumn": 27
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1481",
-          "level": "warning",
-          "message": "Remove the unused local variable 'result'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.API/Controllers/ProductoController.cs",
-                "region": {
-                  "startLine": 77,
-                  "startColumn": 21,
-                  "endLine": 77,
-                  "endColumn": 27
                 }
               }
             }

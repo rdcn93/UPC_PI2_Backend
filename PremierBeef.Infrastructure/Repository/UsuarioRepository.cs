@@ -95,16 +95,25 @@ namespace PremierBeef.Infrastructure.Repository
 
         public Task<bool> RemoveUsuario(int id)
         {
-            var usuario = _context.usuarios.Find(id);
-            if (usuario == null)
+            bool result = false;
+            try
             {
-                return Task.FromResult(true);
+                var usuario = _context.usuarios.Find(id);
+                if (usuario == null)
+                {
+                    return Task.FromResult(true);
+                }
+
+                _context.usuarios.Remove(usuario);
+                _context.SaveChanges();
+
+                result = true;
             }
-
-            _context.usuarios.Remove(usuario);
-            _context.SaveChanges();
-
-            return Task.FromResult(false);
+            catch (Exception)
+            {
+                result = false;
+            }            
+            return Task.FromResult(result);
         }
 
         public Task<Usuario> GetUsuarioById(int id)
@@ -214,7 +223,7 @@ namespace PremierBeef.Infrastructure.Repository
 
             try
             {
-                var result = await Task.Run(() => _context.usuarios.ToListAsync());
+                var result = await Task.Run(() => _context.usuarios.AsNoTracking().ToListAsync());
 
                 foreach (var us in result)
                 {

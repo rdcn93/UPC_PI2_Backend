@@ -1,5 +1,6 @@
 ﻿using PremierBeef.Application.InputModel;
 using PremierBeef.Application.ViewModels;
+using PremierBeef.Core.Entities.Constantes;
 using PremierBeef.Core.Interfaces;
 
 namespace PremierBeef.Application.Services.Reclamo
@@ -24,7 +25,10 @@ namespace PremierBeef.Application.Services.Reclamo
                 idUsuario = newU.idUsuario,
                 respuesta = newU.respuesta,
                 fecRegistro = DateTime.Now,
-                fecModificacion = DateTime.Now
+                fecModificacion = DateTime.Now,
+                estadoReclamo = (int)Constantes.ReclamoEstados.Registrado,
+                fecReclamo = DateTime.Now,
+                estado = true
             };
             var id = await _reclamoRepository.AddReclamo(cliente);
 
@@ -41,7 +45,10 @@ namespace PremierBeef.Application.Services.Reclamo
                 idTipoReclamo = newU.idTipoReclamo,
                 idUsuario = newU.idUsuario,
                 respuesta = newU.respuesta,
-                fecModificacion = DateTime.Now
+                fecModificacion = DateTime.Now,
+                estadoReclamo = string.IsNullOrEmpty(newU.respuesta) ? (int)Constantes.ReclamoEstados.Registrado : (int)Constantes.ReclamoEstados.Resuelto,
+                estado = true,
+                fecRespuesta = string.IsNullOrEmpty(newU.respuesta) ? DateTime.Now : DateTime.Now,
             };
 
             var result = await _reclamoRepository.UpdateReclamo(usuario);

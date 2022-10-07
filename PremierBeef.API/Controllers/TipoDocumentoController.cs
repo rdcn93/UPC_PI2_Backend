@@ -1,16 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Mvc;
 using PremierBeef.Application.Services.TipoDocumentos;
 
 namespace PremierBeef.API.Controllers
 {
-    //public class TipoDocumentoController : Controller
-    //{
-    //    public IActionResult Index()
-    //    {
-    //        return View();
-    //    }
-    //}
-
+    [EnableCors("CorsPolicy")]
     [Route("api/[controller]")]
     [ApiController]
     public class TipoDocumentoController : ControllerBase

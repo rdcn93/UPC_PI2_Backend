@@ -2,10 +2,10 @@
 using PremierBeef.API.Controllers;
 using PremierBeef.Application.Services.Security;
 using PremierBeef.Application.Services.Usuario;
-
+using PremierBeef.Test.FakeServices;
 namespace PremierBeef.Test
 {
-    [TestClass]
+    //[TestClass]
     public class UsuarioControllerTest
     {
         private readonly UsuarioController _controller;

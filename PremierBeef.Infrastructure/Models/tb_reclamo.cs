@@ -20,6 +20,6 @@ namespace PremierBeef.Infrastructure.Models
         public DateTime FecReclamo { get; set; }
         public DateTime FecRespuesta { get; set; }
         public int EstadoReclamo { get; set; }
-        public int Estado { get; set; }
+        public bool Estado { get; set; }
     }
 }

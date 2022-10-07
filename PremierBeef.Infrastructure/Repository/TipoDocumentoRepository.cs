@@ -29,6 +29,7 @@ namespace PremierBeef.Infrastructure.Repository
                         id = us.Id,
                         nombre = us.Nombre,
                         descripcion = us.Descripcion,
+                        longitudNumeroDocumento = us.LongitudNumeroDocumento,
                         estado = us.Estado
                     });
                 }

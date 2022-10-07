@@ -33,8 +33,9 @@ builder.Services.AddSwaggerGen();
 //Configuracion para hash clave
 builder.Services.Configure<PremierBeef.Core.Entities.PasswordOptions>(options => builder.Configuration.GetSection("PasswordOptions").Bind(options));
 
+
 var connectionString = builder.Configuration.GetConnectionString("DevConnection");
-builder.Services.AddDbContext<PremierContext>(x => x.UseSqlServer(connectionString));
+builder.Services.AddDbContext<PremierContext>(x => x.UseSqlServer(connectionString).UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking));
 
 #region Configuración de servicios - Inyección de Dependencias
 builder.Services.AddTransient<IUsuarioRepository, UsuarioRepository>();
@@ -77,6 +78,16 @@ builder.Services.AddScoped<ISecurityService, SecurityService>();
 #endregion
 
 
+//builder.Services.AddCors();
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("CorsPolicy", builder => { builder
+        .AllowAnyOrigin()
+        .AllowAnyMethod()
+        .AllowAnyHeader();
+    });
+});
+
 var emailConfig = builder.Configuration
     .GetSection("EmailConfiguration")
     .Get<EmailConfiguration>();
@@ -115,6 +126,8 @@ builder.Services.AddAuthentication(opt =>
     });
 
 var app = builder.Build();
+
+app.UseCors("CorsPolicy");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

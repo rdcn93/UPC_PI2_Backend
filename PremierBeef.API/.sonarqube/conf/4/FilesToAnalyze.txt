@@ -16,6 +16,7 @@ D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\Program.cs
 D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\obj\Debug\net6.0\PremierBeef.API.GlobalUsings.g.cs
 D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
 D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\obj\Debug\net6.0\PremierBeef.API.AssemblyInfo.cs
+D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\obj\Debug\net6.0\PremierBeef.API.MvcApplicationPartsAssemblyInfo.cs
 D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\appsettings.Development.json
 D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\appsettings.json
 D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\Properties\launchSettings.json

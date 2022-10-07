@@ -170,6 +170,44 @@ namespace PremierBeef.Infrastructure.Repository
             }
 
             return Task.FromResult<Cliente>(null);
+        }
+
+        public Task<Cliente> GetClienteByNroDocumento(Cliente cli)
+        {
+            try
+            {
+                var us = _context.clientes.Where(x => x.IdTipoDocumento == cli.idTipoDocumento && x.NumeroDocumento.Trim() == cli.numeroDocumento.Trim()
+                ).FirstOrDefault();
+
+                if (us != null)
+                {
+                    Cliente tb_cli = new Cliente
+                    {
+                        id = us.Id,
+                        nombre = us.Nombre,
+                        apePaterno = us.ApePaterno,
+                        apeMaterno = us.ApeMaterno,
+                        telefono = us.Telefono,
+                        direccion = us.Direccion,
+                        estado = us.Estado,
+                        enviarPromociones = us.EnviarPromociones,
+                        idTipoDocumento = us.IdTipoDocumento,
+                        numeroDocumento = us.NumeroDocumento,
+                        fecRegistro = us.FecRegistro,
+                        fecModificacion = us.FecModificacion
+                    };
+
+                    return Task.FromResult(tb_cli);
+                }
+
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
+            return Task.FromResult<Cliente>(null);
 
         }
 

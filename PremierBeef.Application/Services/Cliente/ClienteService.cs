@@ -86,6 +86,32 @@ namespace PremierBeef.Application.Services.Cliente
             return productVM;
         }
 
+        public async Task<ClienteViewModel> GetClienteByNroDocumento(ClienteModel usu)
+        {
+            Core.Entities.Cliente cliente = new Core.Entities.Cliente
+            {
+                id = usu.id,
+                nombre = usu.nombre ?? "",
+                apePaterno = usu.apePaterno ?? "",
+                apeMaterno = usu.apeMaterno ?? "",
+                idTipoDocumento = usu.idTipoDocumento,
+                numeroDocumento = usu.numeroDocumento
+            };
+
+            ClienteViewModel productVM = null;
+            try
+            {
+                var user = await _clienteRepository.GetClienteByNroDocumento(cliente);
+
+                productVM = new ClienteViewModel(user);
+            }
+            catch (Exception)
+            {
+            }
+
+            return productVM;
+        }
+
         public async Task<ClienteViewModel> GetClienteById(int id)
         {
             var user = await _clienteRepository.GetClienteById(id);
