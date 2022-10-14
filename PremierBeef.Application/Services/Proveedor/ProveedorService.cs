@@ -32,7 +32,7 @@ namespace PremierBeef.Application.Services.Proveedor
             return id;
         }
 
-        public async Task<int> UpdateProveedor(ProveedorModel newU)
+        public async Task<bool> UpdateProveedor(ProveedorModel newU)
         {
             Core.Entities.Proveedor usuario = new Core.Entities.Proveedor
             {

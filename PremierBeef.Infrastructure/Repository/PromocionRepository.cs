@@ -57,7 +57,7 @@ namespace PremierBeef.Infrastructure.Repository
                 FecInicio = us.fecInicio,
                 FecFin = us.fecFin,
                 PorcentajeDescuento = us.porcentajeDescuento,
-                Estado = us.estado,
+                Estado = true,
                 FecRegistro = us.fecRegistro,
                 FecModificacion = us.fecModificacion
             };
@@ -77,39 +77,39 @@ namespace PremierBeef.Infrastructure.Repository
             return Task.FromResult(newId);
         }
 
-        public Task<bool> UpdatePromocion(Promocion us)
+        public Task<bool> UpdatePromocion(Promocion prom)
         {
-            bool result;
-            tb_promocion tb_cli = new tb_promocion
-            {
-                Id = us.id,
-                Nombre = us.nombre,
-                Descripcion = us.descripcion,
-                FecInicio = us.fecInicio,
-                FecFin = us.fecFin,
-                PorcentajeDescuento = us.porcentajeDescuento,
-                Estado = us.estado,
-                FecRegistro = us.fecRegistro,
-                FecModificacion = DateTime.Now
-            };
+            bool result = false;
 
             try
             {
-                _context.promociones.Attach(tb_cli);
-                _context.Entry(tb_cli).State = EntityState.Modified;
-                _context.Entry(tb_cli).Property(x => x.Id).IsModified = false;
-                _context.Entry(tb_cli).Property(X => X.FecRegistro).IsModified = false;
+                var promocion = _context.promociones.Find(prom.id);
 
-                _context.promociones.Update(tb_cli);
-                _context.SaveChanges();
+                if (promocion != null)
+                {
+                    promocion.Nombre = prom.nombre;
+                    promocion.Descripcion = prom.descripcion;
+                    promocion.FecInicio = prom.fecInicio;
+                    promocion.FecFin = prom.fecFin;
+                    promocion.PorcentajeDescuento = prom.porcentajeDescuento;
+                    promocion.Estado = promocion.Estado;
+                    promocion.FecRegistro = promocion.FecRegistro;
+                    promocion.FecModificacion = DateTime.Now;
 
-                result = true;
+
+                    _context.promociones.Attach(promocion);
+
+                    _context.promociones.Update(promocion);
+
+                    var sds = _context.SaveChanges();
+
+                    result = true;
+                }
             }
             catch (Exception)
             {
-                result = false;
-            }
 
+            }
 
             return Task.FromResult(result);
         }

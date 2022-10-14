@@ -7,7 +7,7 @@ namespace PremierBeef.Application.Services.Cliente
     public interface IClienteService
     {
         Task<int> AddCliente(ClienteModel newU);
-        Task<int> UpdateCliente(ClienteModel newU);
+        Task<bool> UpdateCliente(ClienteModel newU);
         Task<int> RemoveCliente(int id);
         Task<ClienteViewModel> GetClienteByCliente(ClienteModel cli);
         Task<ClienteViewModel> GetClienteByNroDocumento(ClienteModel cli);

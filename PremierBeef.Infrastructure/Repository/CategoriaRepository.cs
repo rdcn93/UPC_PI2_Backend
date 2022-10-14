@@ -40,39 +40,35 @@ namespace PremierBeef.Infrastructure.Repository
             return Task.FromResult(newId);
         }
 
-        public Task<int> UpdateCategoria(Categoria us)
+        public Task<bool> UpdateCategoria(Categoria cat)
         {
-            tb_producto_categoria tb_cli = new tb_producto_categoria
-            {
-                Id = us.id,
-                Nombre = us.nombre,
-                Descripcion = us.descripcion,
-                Estado = us.estado,
-                //FecRegistro = us.fecRegistro,
-                //FecModificacion = DateTime.Now
-            };
+            bool result = false;
 
             try
             {
-                //var dbEntry = _context.Entry(tb_cli);
+                var categoria = _context.categorias.Find(cat.id);
 
-                //dbEntry.Property(x => x.Id).IsModified = false;
-                //dbEntry.Property(x => x.FecRegistro).IsModified = false;
-                _context.categorias.Attach(tb_cli);
-                _context.Entry(tb_cli).State = EntityState.Modified;
-                _context.Entry(tb_cli).Property(x => x.Id).IsModified = false;
-                //_context.Entry(tb_cli).Property(X => X.FecRegistro).IsModified = false;
+                if (categoria != null)
+                {
+                    categoria.Nombre = cat.nombre;
+                    categoria.Descripcion = cat.descripcion;
+                    categoria.Estado = true;
 
-                _context.categorias.Update(tb_cli);
-                _context.SaveChanges();
+
+                    _context.categorias.Attach(categoria);
+
+                    _context.categorias.Update(categoria);
+                    _context.SaveChanges();
+
+                    result = true;
+                }
             }
             catch (Exception)
             {
 
             }
 
-
-            return Task.FromResult(0);
+            return Task.FromResult(result);
         }
 
         public Task<int> RemoveCategoria(int id)

@@ -50,45 +50,36 @@ namespace PremierBeef.Infrastructure.Repository
         public Task<bool> UpdateUsuario(Usuario us)
         {
             bool result = false;
-            tb_usuario updUser = new tb_usuario
-            {
-                Id = us.id,
-                Usuario = us.usuario,
-                Clave = us.clave,
-                Correo = us.correo,
-                Nombre = us.nombre,
-                ApePaterno = us.apePaterno,
-                ApeMaterno = us.apeMaterno,
-                Telefono = us.telefono,
-                IdRol = us.idRol,
-                FecModificacion = DateTime.Now
-            };
 
             try
             {
-                //var dbEntry = _context.Entry(tb_user);
+                var usuario = _context.usuarios.Find(us.id);
 
-                //dbEntry.Property(x => x.Id).IsModified = false;
-                //dbEntry.Property(x => x.FecRegistro).IsModified = false;
+                if (usuario != null)
+                {
+                    usuario.Usuario = usuario.Usuario;
+                    usuario.Clave = usuario.Clave;
+                    usuario.Correo = us.correo;
+                    usuario.Nombre = us.nombre;
+                    usuario.ApePaterno = us.apePaterno;
+                    usuario.ApeMaterno = us.apeMaterno;
+                    usuario.Telefono = us.telefono;
+                    usuario.IdRol = us.idRol;
+                    usuario.FecModificacion = DateTime.Now;
+                    
+                    _context.usuarios.Attach(usuario);
 
-                _context.usuarios.Attach(updUser);
-                _context.Entry(updUser).State = EntityState.Modified;
-                _context.Entry(updUser).Property(x => x.Id).IsModified = false;
-                _context.Entry(updUser).Property(X => X.FecRegistro).IsModified = false;
+                    _context.usuarios.Update(usuario);
 
-                _context.Entry(updUser).State = EntityState.Detached;
+                    var sds = _context.SaveChanges();
 
-                _context.usuarios.Update(updUser);
-
-                _context.SaveChanges();
-
-                result = true;
+                    result = true;
+                }
             }
             catch (Exception)
             {
-                result = false;
-            }
 
+            }
 
             return Task.FromResult(result);
         }
@@ -136,6 +127,7 @@ namespace PremierBeef.Infrastructure.Repository
                     fecRegistro = us.FecRegistro,
                     fecModificacion = us.FecModificacion
                 };
+
 
                 _context.Entry(us).State = EntityState.Detached;
 

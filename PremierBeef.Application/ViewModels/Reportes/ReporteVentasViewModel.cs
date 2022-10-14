@@ -7,29 +7,25 @@ namespace PremierBeef.Application.ViewModels.Reportes
         public ReporteVentasViewModel(ReporteVentas reporte)
         {
             id = reporte.id;
-            detalle = reporte.detalle;
-            usuarioRegistro = reporte.usuarioRegistro;
-            usuarioRegistroCompleto = reporte.usuarioRegistroCompleto;
-            fechaReclamo = reporte.fechaReclamo;
-            tipoReclamo = reporte.tipoReclamo;
-            pedido = reporte.pedido;
             cliente = reporte.cliente;
-            respuesta = reporte.respuesta;
-            usuarioRespuesta = reporte.usuarioRespuesta;
-            usuarioRespuestaCompleto = reporte.usuarioRespuestaCompleto;
-            fechaRespuesta = reporte.fechaRespuesta;
+            tipo_documento = reporte.tipo_documento;
+            documento = reporte.documento;
+            fecha_emision = reporte.fecha_emision;
+            tipo_comprobante = reporte.tipo_comprobante;
+            serie_comprobante = reporte.serie_comprobante;
+            importe_grabado = reporte.importe_grabado;
+            importe_igv = reporte.importe_igv;
+            importe_total = reporte.importe_total;
         }
         public int id { get; set; }
-        public string detalle { get; set; }
-        public string usuarioRegistro { get; set; }
-        public string usuarioRegistroCompleto { get; set; }
-        public string fechaReclamo { get; set; }
-        public string tipoReclamo { get; set; }
-        public int pedido { get; set; }
         public string cliente { get; set; }
-        public string respuesta { get; set; }
-        public string usuarioRespuesta { get; set; }
-        public string usuarioRespuestaCompleto { get; set; }
-        public string fechaRespuesta { get; set; }
+        public string tipo_documento { get; set; }
+        public string documento { get; set; }
+        public string fecha_emision { get; set; }
+        public string tipo_comprobante { get; set; }
+        public string serie_comprobante { get; set; }
+        public decimal importe_grabado { get; set; }
+        public decimal importe_igv { get; set; }
+        public decimal importe_total { get; set; }
     }
 }

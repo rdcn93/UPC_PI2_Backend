@@ -1,6 +1,7 @@
 ﻿D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\Almacen.cs
 D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\Categoria.cs
 D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\Cliente.cs
+D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\Constantes\Constantes.cs
 D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\PasswordOptions.cs
 D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\Producto.cs
 D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\Promocion.cs

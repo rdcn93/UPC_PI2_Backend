@@ -31,6 +31,8 @@ namespace PremierBeef.Infrastructure.Data
         //procedures
         [NotMapped]
         public DbSet<dbo_GetReporteReclamos> dbo_GetReporteReclamos { get; set; }
+        public DbSet<dbo_GetReporteVentas> dbo_GetReporteVentas { get; set; }
+        
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

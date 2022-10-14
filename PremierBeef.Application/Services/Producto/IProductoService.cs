@@ -7,7 +7,7 @@ namespace PremierBeef.Application.Services.Producto
     public interface IProductoService
     {
         Task<int> AddProducto(ProductoModel newU);
-        Task<int> UpdateProducto(ProductoModel newU);
+        Task<bool> UpdateProducto(ProductoModel newU);
         Task<int> RemoveProducto(int id);
         Task<ProductoViewModel> GetProductoByProducto(string usu);
         Task<ProductoViewModel> GetProductoById(int id);

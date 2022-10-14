@@ -1,7 +1,8 @@
 R
 ID:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\Almacen.csutf-8T
 KD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\Categoria.csutf-8R
-ID:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\Cliente.csutf-8Z
+ID:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\Cliente.csutf-8`
+WD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\Constantes\Constantes.csutf-8Z
 QD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\PasswordOptions.csutf-8S
 JD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\Producto.csutf-8T
 KD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\Promocion.csutf-8[

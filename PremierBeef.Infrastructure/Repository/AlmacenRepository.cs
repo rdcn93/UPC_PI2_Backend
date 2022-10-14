@@ -44,41 +44,45 @@ namespace PremierBeef.Infrastructure.Repository
             return Task.FromResult(newId);
         }
 
-        public Task<int> UpdateAlmacen(Almacen us)
+        public Task<bool> UpdateAlmacen(Almacen al)
         {
-            tb_almacen tb_cli = new tb_almacen
-            {
-                Id = us.id,
-                Nombre = us.nombre,
-                Descripcion = us.descripcion,
-                Direccion = us.direccion,
-                Telefono = us.telefono,
-                Estado = us.estado,
-                FecRegistro = us.fecRegistro,
-                FecModificacion = DateTime.Now
-            };
+            bool result = false;
 
             try
             {
-                //var dbEntry = _context.Entry(tb_cli);
+                var almacen = _context.almacenes.Find(al.id);
 
-                //dbEntry.Property(x => x.Id).IsModified = false;
-                //dbEntry.Property(x => x.FecRegistro).IsModified = false;
-                _context.almacenes.Attach(tb_cli);
-                _context.Entry(tb_cli).State = EntityState.Modified;
-                _context.Entry(tb_cli).Property(x => x.Id).IsModified = false;
-                _context.Entry(tb_cli).Property(X => X.FecRegistro).IsModified = false;
+                if (almacen != null)
+                {
+                    almacen.Nombre = al.nombre;
+                    almacen.Descripcion = al.descripcion;
+                    almacen.Direccion = al.direccion;
+                    almacen.FecRegistro = almacen.FecRegistro;
+                    almacen.FecModificacion = DateTime.Now;
+                    almacen.Telefono = al.telefono;
+                    almacen.Estado = true;
 
-                _context.almacenes.Update(tb_cli);
-                _context.SaveChanges();
+
+                    _context.almacenes.Attach(almacen);
+                    _context.Entry(almacen).State = EntityState.Modified;
+                    _context.Entry(almacen).Property(x => x.Id).IsModified = false;
+                    _context.Entry(almacen).Property(X => X.FecRegistro).IsModified = false;
+
+                    _context.Entry(almacen).State = EntityState.Detached;
+
+                    _context.almacenes.Update(almacen);
+
+                    var sds = _context.SaveChanges();
+
+                    result = true;
+                }
             }
             catch (Exception)
             {
 
             }
 
-
-            return Task.FromResult(0);
+            return Task.FromResult(result);
         }
 
         public Task<int> RemoveAlmacen(int id)

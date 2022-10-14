@@ -1,0 +1,14 @@
+^
+UD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Test\AuthenticationControllerTest.csutf-8g
+^D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Test\FakeServices\ConfigurationServiceFake.csutf-8_
+VD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Test\FakeServices\EmailServiceFake.csutf-8a
+XD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Test\FakeServices\ReclamoServiceFake.csutf-8b
+YD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Test\FakeServices\SecurityServiceFake.csutf-8a
+XD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Test\FakeServices\UsuarioServiceFake.csutf-8W
+ND:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Test\ReclamoControllerTest.csutf-8H
+?D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Test\Usings.csutf-8W
+ND:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Test\UsuarioControllerTest.csutf-8}
+rC:\Users\DARIO\.nuget\packages\microsoft.net.test.sdk\17.1.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.csutf-8t
+iD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Test\obj\Debug\net6.0\PremierBeef.Test.GlobalUsings.g.csutf-8€
+uD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Test\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8r
+gD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Test\obj\Debug\net6.0\PremierBeef.Test.AssemblyInfo.csutf-8

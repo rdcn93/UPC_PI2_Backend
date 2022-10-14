@@ -1,0 +1,5 @@
+﻿D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Mail\EmailConfiguration.cs
+D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Mail\EmailSender.cs
+D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Mail\IEmailSender.cs
+D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Mail\Message.cs
+D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Mail\App.config

@@ -20,6 +20,8 @@ using PremierBeef.Infrastructure.Data;
 using PremierBeef.Infrastructure.Repository;
 using PremierBeef.Mail;
 using System.Text;
+using Microsoft.AspNetCore.Session;
+using DocumentFormat.OpenXml.Office2016.Drawing.ChartDrawing;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -77,6 +79,9 @@ builder.Services.AddScoped<IReporteService, ReporteService>();
 builder.Services.AddScoped<ISecurityService, SecurityService>();
 #endregion
 
+//builder.Services.AddMvc();
+//builder.Services.AddDistributedMemoryCache();
+//builder.Services.AddSession();
 
 //builder.Services.AddCors();
 builder.Services.AddCors(options =>
@@ -146,6 +151,8 @@ app.UseHttpsRedirection();
 app.UseAuthentication();
 
 app.UseAuthorization();
+
+//app.UseSession();
 
 app.MapControllers();
 

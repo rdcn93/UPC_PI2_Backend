@@ -45,7 +45,7 @@ namespace PremierBeef.API.Controllers
 
             foreach (var emp in reporte)
             {
-                dt.Rows.Add(emp.detalle, emp.respuesta);
+                dt.Rows.Add(emp.cliente, emp.tipo_documento);
             }
             //using ClosedXML.Excel;
             using (XLWorkbook wb = new XLWorkbook())

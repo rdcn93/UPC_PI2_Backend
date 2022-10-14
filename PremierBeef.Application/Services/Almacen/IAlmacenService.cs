@@ -7,7 +7,7 @@ namespace PremierBeef.Application.Services.Almacen
     public interface IAlmacenService
     {
         Task<int> AddAlmacen(AlmacenModel newU);
-        Task<int> UpdateAlmacen(AlmacenModel newU);
+        Task<bool> UpdateAlmacen(AlmacenModel newU);
         Task<int> RemoveAlmacen(int id);
         Task<AlmacenViewModel> GetAlmacenByAlmacen(string usu);
         Task<AlmacenViewModel> GetAlmacenById(int id);

@@ -6,7 +6,7 @@ namespace PremierBeef.Core.Interfaces
     {
         Task<List<Proveedor>> GetProveedores();
         Task<int> AddProveedor(Proveedor us);
-        Task<int> UpdateProveedor(Proveedor us);
+        Task<bool> UpdateProveedor(Proveedor us);
         Task<int> RemoveProveedor(int id);
         Task<Proveedor> GetProveedorById(int id);
         Task<Proveedor> GetProveedorByProveedor(string proveedor);

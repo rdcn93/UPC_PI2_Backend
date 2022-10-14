@@ -44,41 +44,39 @@ namespace PremierBeef.Infrastructure.Repository
             return Task.FromResult(newId);
         }
 
-        public Task<int> UpdateProducto(Producto us)
+        public Task<bool> UpdateProducto(Producto prod)
         {
-            tb_producto tb_user = new tb_producto
-            {
-                Id = us.id,
-                Nombre = us.nombre,
-                Descripcion = us.descripcion,
-                Precio = us.precio,
-                IdCategoria = us.idCategoria,
-                IdProveedor = us.idProveedor,
-                FecRegistro = us.fecRegistro,
-                FecModificacion = DateTime.Now
-            };
+            bool result = false;
 
             try
             {
-                //var dbEntry = _context.Entry(tb_user);
+                var producto = _context.productos.Find(prod.id);
 
-                //dbEntry.Property(x => x.Id).IsModified = false;
-                //dbEntry.Property(x => x.FecRegistro).IsModified = false;
-                _context.productos.Attach(tb_user);
-                _context.Entry(tb_user).State = EntityState.Modified;
-                _context.Entry(tb_user).Property(x => x.Id).IsModified = false;
-                _context.Entry(tb_user).Property(X => X.FecRegistro).IsModified = false;
+                if (producto != null)
+                {
+                    producto.Nombre = prod.nombre;
+                    producto.Descripcion = prod.descripcion;
+                    producto.Precio = prod.precio;
+                    producto.IdCategoria = prod.idCategoria;
+                    producto.IdProveedor = prod.idProveedor;
+                    producto.FecRegistro = producto.FecRegistro;
+                    producto.FecModificacion = DateTime.Now;
 
-                _context.productos.Update(tb_user);
-                _context.SaveChanges();
+                    _context.productos.Attach(producto);
+
+                    _context.productos.Update(producto);
+
+                    var sds = _context.SaveChanges();
+
+                    result = true;
+                }
             }
             catch (Exception)
             {
 
             }
 
-
-            return Task.FromResult(0);
+            return Task.FromResult(result);
         }
 
         public Task<int> RemoveProducto(int id)

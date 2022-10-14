@@ -7,7 +7,7 @@ namespace PremierBeef.Application.Services.Proveedor
     public interface IProveedorService
     {
         Task<int> AddProveedor(ProveedorModel newU);
-        Task<int> UpdateProveedor(ProveedorModel newU);
+        Task<bool> UpdateProveedor(ProveedorModel newU);
         Task<int> RemoveProveedor(int id);
         Task<ProveedorViewModel> GetProveedorByProveedor(string usu);
         Task<ProveedorViewModel> GetProveedorById(int id);

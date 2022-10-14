@@ -59,7 +59,12 @@ ID:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\Cliente.cs
 
  %
 
- %É
+ %q
+WD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\Constantes\Constantes.cs
+
+		 
+
+ "É
 QD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\PasswordOptions.cs
 
   
@@ -89,7 +94,7 @@ JD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\Producto.cs
 
  #
 
- '—
+ 'È
 KD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\Promocion.cs
 
  
@@ -114,7 +119,11 @@ KD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\Promocion.cs
 
  '
 
- %Ñ
+ %
+
+ "
+
+ Ñ
 RD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\PromocionDetalle.cs
 
  !
@@ -181,7 +190,7 @@ ID:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\Reclamo.cs
 
   
 
- ã
+ ã
 MD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\ReclamoTipo.cs
 
  
@@ -192,7 +201,7 @@ MD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\ReclamoTipo.cs
 
  !
 
- ä
+ ñ
 XD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\Reportes\FiltroReporte.cs
 
  
@@ -201,7 +210,9 @@ XD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\Reportes\FiltroR
 
  
 
- ¯
+ 
+
+  ¯
 ZD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\Reportes\ReporteDelivery.cs
 
   
@@ -317,7 +328,7 @@ WD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\Reportes\Reporte
 
  .
 
- $ˆ
+ $ﬁ
 XD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\Reportes\ReporteVentas.cs
 
  
@@ -326,27 +337,23 @@ XD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\Reportes\Reporte
 
  
 
- %
+ $
 
- -
+ 
 
-		 "
+		 #
 
 
 
- !
+ &
 
- 
+ '
 
- 
+ &
 
- 
+ "
 
- &
-
- .
-
- $É
+ $É
 ED:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\Rol.cs
 
  
@@ -357,7 +364,7 @@ ED:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\Rol.cs
 
  !
 
- ç
+ ô
 OD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\TipoDocumento.cs
 
  
@@ -368,7 +375,9 @@ OD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\TipoDocumento.cs
 
  !
 
- €
+ *
+
+		 €
 ID:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\Usuario.cs
 
  
@@ -404,9 +413,9 @@ VD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Interfaces\IAlmacenReposi
 
 % '
 
- 
+  
 
-( *
+) +
 
 		 
 
@@ -433,9 +442,9 @@ XD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Interfaces\ICategoriaRepo
 
 ) +
 
- !
+ "
 
-, .
+- /
 
 		 !
 
@@ -453,7 +462,7 @@ XD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Interfaces\ICategoriaRepo
 
 7 @
 
- +Ë
+ +Ä
 VD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Interfaces\IClienteRepository.cs
 
  '
@@ -462,9 +471,9 @@ VD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Interfaces\IClienteReposi
 
 % '
 
- 
+  
 
-( *
+) +
 
 		 
 
@@ -482,7 +491,11 @@ VD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Interfaces\IClienteReposi
 
 2 9
 
- 'È
+ .
+
+7 :
+
+ 'È
 WD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Interfaces\IProductoRepository.cs
 
  (
@@ -491,9 +504,9 @@ WD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Interfaces\IProductoRepos
 
 ' )
 
-  
+ !
 
-* ,
++ -
 
 		  
 
@@ -563,9 +576,9 @@ XD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Interfaces\IProveedorRepo
 
 ) +
 
-		 !
+		 "
 
-		, .
+		- /
 
 
 
@@ -590,13 +603,13 @@ VD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Interfaces\IReclamoReposi
 
 % '
 
- 
+  
 
-( *
+) +
 
-		 
+		  
 
-		$ &
+		% '
 
 
 

@@ -13,5 +13,10 @@
         public int idRol { get; set; }
         public DateTime fecRegistro { get; set; }
         public DateTime fecModificacion { get; set; }
+
+        public string GetNombreCompleto()
+        {
+            return nombre + "" + apePaterno;
+        }
     }
 }

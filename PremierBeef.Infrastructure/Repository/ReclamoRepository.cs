@@ -27,11 +27,11 @@ namespace PremierBeef.Infrastructure.Repository
                 IdTipoReclamo = us.idTipoReclamo,
                 IdUsuarioRespuesta = us.idUsuarioRespuesta,
                 Respuesta = us.respuesta,
-                FecRegistro = us.fecRegistro,
+                FecRegistro = DateTime.Now,
                 FecModificacion = us.fecModificacion,
-                Estado = us.estado,
+                Estado = true,
                 EstadoReclamo = us.estadoReclamo,
-                FecReclamo = us.fecReclamo
+                FecReclamo = DateTime.Now
             };
 
             try
@@ -49,25 +49,10 @@ namespace PremierBeef.Infrastructure.Repository
             return Task.FromResult(newId);
         }
 
-        public Task<int> UpdateReclamo(Reclamo us)
+        public Task<bool> UpdateReclamo(Reclamo us)
         {
-            //tb_reclamo tb_cli = new tb_reclamo
-            //{
-            //    Id = us.id,
-            //    Detalle = us.detalle,
-            //    IdUsuario = us.idUsuario,
-            //    IdPedido = us.idPedido,
-            //    IdTipoReclamo = us.idTipoReclamo,
-            //    Respuesta = us.respuesta,
-            //    IdUsuarioRespuesta = us.idUsuarioRespuesta,
-            //    FecRegistro = us.fecRegistro,
-            //    FecModificacion = DateTime.Now,
-            //    FecReclamo = us.fecReclamo,
-            //    FecRespuesta = us.fecRespuesta,
-            //    Estado = us.estado,
-            //    EstadoReclamo = us.estadoReclamo
-            //};
-
+            bool result = false;
+            
             try
             {
                 var reclamo = _context.reclamos.Find(us.id);
@@ -75,16 +60,13 @@ namespace PremierBeef.Infrastructure.Repository
                 if(reclamo != null)
                 {
                     reclamo.Detalle = us.detalle;
-                    reclamo.IdUsuario = us.idUsuario;
-                    reclamo.IdPedido = us.idPedido;
                     reclamo.IdTipoReclamo = us.idTipoReclamo;
                     reclamo.Respuesta = us.respuesta;
                     reclamo.IdUsuarioRespuesta = us.idUsuarioRespuesta;
                     reclamo.FecModificacion = DateTime.Now;
-                    reclamo.FecRespuesta = us.fecRespuesta;
-                    reclamo.Estado = us.estado;
+                    reclamo.FecRespuesta = DateTime.Now;
+                    reclamo.Estado = reclamo.Estado;
                     reclamo.EstadoReclamo = us.estadoReclamo;
-
 
                     _context.reclamos.Attach(reclamo);
                     _context.Entry(reclamo).State = EntityState.Modified;
@@ -96,7 +78,9 @@ namespace PremierBeef.Infrastructure.Repository
 
                     _context.reclamos.Update(reclamo);
 
-                    _context.SaveChanges();
+                    var sds = _context.SaveChanges();
+
+                    result = true;
                 }                
             }
             catch (Exception)
@@ -104,22 +88,32 @@ namespace PremierBeef.Infrastructure.Repository
 
             }
 
-
-            return Task.FromResult(0);
+            return Task.FromResult(result);
         }
 
-        public Task<int> RemoveReclamo(int id)
+        public Task<bool> RemoveReclamo(int id)
         {
-            var Reclamo = _context.reclamos.Find(id);
-            if (Reclamo == null)
+            bool result = false;
+
+            try
             {
-                return Task.FromResult(1);
+                var Reclamo = _context.reclamos.Find(id);
+                if (Reclamo == null)
+                    return Task.FromResult(false);
+                else
+                {
+                    _context.reclamos.Remove(Reclamo);
+                    _context.SaveChanges();
+
+                    result = true;
+                }
+            }
+            catch (Exception)
+            {
+
             }
 
-            _context.reclamos.Remove(Reclamo);
-            _context.SaveChanges();
-
-            return Task.FromResult(0);
+            return Task.FromResult(result);
         }
 
         public Task<Reclamo> GetReclamoById(int id)

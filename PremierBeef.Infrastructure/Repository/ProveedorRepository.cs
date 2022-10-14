@@ -76,42 +76,41 @@ namespace PremierBeef.Infrastructure.Repository
             return Task.FromResult(newId);
         }
 
-        public Task<int> UpdateProveedor(Proveedor us)
+        public Task<bool> UpdateProveedor(Proveedor prov)
         {
-            tb_proveedor tb_cli = new tb_proveedor
-            {
-                Id = us.id,
-                Nombre = us.nombre,
-                Descripcion = us.descripcion,
-                Direccion = us.direccion,
-                Telefono = us.telefono,
-                IdTipoDocumento = us.idTipoDocumento,
-                NumeroDocumento = us.numeroDocumento,
-                FecRegistro = us.fecRegistro,
-                FecModificacion = DateTime.Now
-            };
+            bool result = false;
 
             try
             {
-                //var dbEntry = _context.Entry(tb_cli);
+                var proveedor = _context.proveedores.Find(prov.id);
 
-                //dbEntry.Property(x => x.Id).IsModified = false;
-                //dbEntry.Property(x => x.FecRegistro).IsModified = false;
-                _context.proveedores.Attach(tb_cli);
-                _context.Entry(tb_cli).State = EntityState.Modified;
-                _context.Entry(tb_cli).Property(x => x.Id).IsModified = false;
-                _context.Entry(tb_cli).Property(X => X.FecRegistro).IsModified = false;
+                if (proveedor != null)
+                {
+                    proveedor.Id = prov.id;
+                    proveedor.Nombre = prov.nombre;
+                    proveedor.Descripcion = prov.descripcion;
+                    proveedor.Direccion = prov.direccion;
+                    proveedor.Telefono = prov.telefono;
+                    proveedor.IdTipoDocumento = prov.idTipoDocumento;
+                    proveedor.NumeroDocumento = prov.numeroDocumento;
+                    proveedor.FecRegistro = proveedor.FecRegistro;
+                    proveedor.FecModificacion = DateTime.Now;
 
-                _context.proveedores.Update(tb_cli);
-                _context.SaveChanges();
+                    _context.proveedores.Attach(proveedor);
+
+                    _context.proveedores.Update(proveedor);
+
+                    var sds = _context.SaveChanges();
+
+                    result = true;
+                }
             }
             catch (Exception)
             {
 
             }
 
-
-            return Task.FromResult(0);
+            return Task.FromResult(result);
         }
 
         public Task<int> RemoveProveedor(int id)

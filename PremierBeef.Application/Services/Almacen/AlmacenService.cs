@@ -30,7 +30,7 @@ namespace PremierBeef.Application.Services.Almacen
             return id;
         }
 
-        public async Task<int> UpdateAlmacen(AlmacenModel newU)
+        public async Task<bool> UpdateAlmacen(AlmacenModel newU)
         {
             Core.Entities.Almacen usuario = new Core.Entities.Almacen
             {

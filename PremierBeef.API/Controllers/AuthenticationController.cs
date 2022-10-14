@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Cors;
+﻿using DocumentFormat.OpenXml.Spreadsheet;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.IdentityModel.Tokens;
@@ -64,7 +65,8 @@ namespace PremierBeef.API.Controllers
                     signingCredentials: signinCredentials
                 );
                 var tokenString = new JwtSecurityTokenHandler().WriteToken(tokeOptions);
-                return Ok(new JWTTokenResponse { Token = tokenString });
+
+                return Ok(new JWTTokenResponse { Token = tokenString, userId = userInfo.Result.id, user = userInfo.Result.usuario,userFullName = userInfo.Result.nombreCompleto });
             }
             else
                 return Unauthorized("Contraseña incorrecta");

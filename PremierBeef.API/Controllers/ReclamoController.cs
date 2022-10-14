@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Cors;
+﻿using DocumentFormat.OpenXml.Spreadsheet;
+using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using PremierBeef.Application.InputModel;
 using PremierBeef.Application.Services.Reclamo;
@@ -65,7 +67,11 @@ namespace PremierBeef.API.Controllers
             {
                 var result = await _reclamoService.UpdateReclamo(userInputModel);
 
-                return Ok();
+                if (result)
+                    return Ok();
+                else
+                    return BadRequest("Ocurrió un error al Modificar el Reclamo");
+
             }
             return BadRequest();
         }
@@ -75,7 +81,7 @@ namespace PremierBeef.API.Controllers
         {
             var result = await _reclamoService.RemoveReclamo(id);
 
-            if (result == 0)
+            if (result)
                 return Ok();
             else
                 return NotFound();

@@ -48,46 +48,43 @@ namespace PremierBeef.Infrastructure.Repository
             return Task.FromResult(newId);
         }
 
-        public Task<int> UpdateCliente(Cliente us)
+        public Task<bool> UpdateCliente(Cliente cli)
         {
-            tb_cliente tb_cli = new tb_cliente
-            {
-                Id = us.id,
-                Nombre = us.nombre,
-                ApePaterno = us.apePaterno,
-                ApeMaterno = us.apeMaterno,
-                Telefono = us.telefono,
-                Direccion = us.direccion,
-                Estado = us.estado,
-                EnviarPromociones = us.enviarPromociones,
-                IdTipoDocumento = us.idTipoDocumento,
-                NumeroDocumento = us.numeroDocumento,
-                FecRegistro = us.fecRegistro,
-                FecModificacion = DateTime.Now
-            };
+            bool result = false;
 
             try
             {
-                //var dbEntry = _context.Entry(tb_cli);
+                var cliente = _context.clientes.Find(cli.id);
 
-                //dbEntry.Property(x => x.Id).IsModified = false;
-                //dbEntry.Property(x => x.FecRegistro).IsModified = false;
-                _context.clientes.Attach(tb_cli);
-                _context.Entry(tb_cli).State = EntityState.Modified;
-                _context.Entry(tb_cli).Property(x => x.Id).IsModified = false;
-                _context.Entry(tb_cli).Property(X => X.FecRegistro).IsModified = false;
+                if (cliente != null)
+                {
+                    cliente.Nombre = cli.nombre;
+                    cliente.ApePaterno = cli.apePaterno;
+                    cliente.ApeMaterno = cli.apeMaterno;
+                    cliente.Telefono = cli.telefono;
+                    cliente.Direccion = cli.direccion;
+                    cliente.Estado = true;
+                    cliente.EnviarPromociones = cli.enviarPromociones;
+                    cliente.IdTipoDocumento = cli.idTipoDocumento;
+                    cliente.NumeroDocumento = cli.numeroDocumento;
+                    cliente.FecRegistro = cliente.FecRegistro;
+                    cliente.FecModificacion = DateTime.Now;
 
+                    _context.clientes.Attach(cliente);
 
-                _context.clientes.Update(tb_cli);
-                _context.SaveChanges();
+                    _context.clientes.Update(cliente);
+
+                    var sds = _context.SaveChanges();
+
+                    result = true;
+                }
             }
             catch (Exception)
             {
 
             }
 
-
-            return Task.FromResult(0);
+            return Task.FromResult(result);
         }
 
         public Task<int> RemoveCliente(int id)

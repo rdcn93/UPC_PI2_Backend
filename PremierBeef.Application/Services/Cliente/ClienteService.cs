@@ -34,7 +34,7 @@ namespace PremierBeef.Application.Services.Cliente
             return id;
         }
 
-        public async Task<int> UpdateCliente(ClienteModel newU)
+        public async Task<bool> UpdateCliente(ClienteModel newU)
         {
             Core.Entities.Cliente usuario = new Core.Entities.Cliente
             {

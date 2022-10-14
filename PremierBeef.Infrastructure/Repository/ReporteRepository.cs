@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using PremierBeef.Core.Entities;
 using PremierBeef.Core.Entities.Reportes;
 using PremierBeef.Core.Interfaces;
 using PremierBeef.Infrastructure.Data;
@@ -19,7 +20,7 @@ namespace PremierBeef.Infrastructure.Repository
             List<ReporteVentas> reporte = new List<ReporteVentas>();
             try
             {
-                var result = _context.dbo_GetReporteReclamos.FromSqlRaw("EXEC dbo.GetReporteReclamos {0}, {1}, {2}", filtro.fecInicio, filtro.fecFin, filtro.idPedido).ToList();
+                var result = _context.dbo_GetReporteVentas.FromSqlRaw("EXEC dbo.GetReporteVentas {0}, {1}, {2}", filtro.fecInicio, filtro.fecFin, filtro.idPedido).ToList();
 
 
                 if (result != null)
@@ -29,18 +30,16 @@ namespace PremierBeef.Infrastructure.Repository
                         reporte.Add(new ReporteVentas
                         {
                             id = us.Id,
-                            detalle = us.Detalle,
-                            usuarioRegistro = us.UsuarioRegistro,
-                            usuarioRegistroCompleto = us.UsuarioRegistroCompleto,
-                            fechaReclamo = us.FechaReclamo,
-                            tipoReclamo = us.TipoReclamo,
-                            pedido = us.Pedido,
                             cliente = us.Cliente,
-                            respuesta = us.Respuesta,
-                            usuarioRespuesta = us.UsuarioRespuesta,
-                            usuarioRespuestaCompleto = us.UsuarioRespuestaCompleto,
-                            fechaRespuesta = us.FechaRespuesta
-                        });
+                            tipo_documento = us.Tipo_documento,
+                            documento = us.Documento,
+                            fecha_emision = us.Fecha_emision,
+                            tipo_comprobante = us.Tipo_comprobante,
+                            serie_comprobante = us.Serie_comprobante,
+                            importe_grabado = us.Importe_grabado,
+                            importe_igv = us.Importe_igv,
+                            importe_total = us.Importe_total
+                    });
                     }
 
                 }
@@ -136,7 +135,12 @@ namespace PremierBeef.Infrastructure.Repository
             List<ReporteReclamos> reporte = new List<ReporteReclamos>();
             try
             {
-                var result = _context.dbo_GetReporteReclamos.FromSqlRaw("EXEC dbo.GetReporteReclamos {0}, {1}, {2}", filtro.fecInicio, filtro.fecFin, filtro.idPedido).ToList();
+                var result = _context.dbo_GetReporteReclamos.FromSqlRaw("EXEC dbo.GetReporteReclamos {0}, {1}, {2}, {3}", 
+                    filtro.fecInicio, 
+                    filtro.fecFin, 
+                    filtro.idPedido,
+                    filtro.idTipoReclamo
+                    ).ToList();
 
 
                 if (result != null)
@@ -149,14 +153,14 @@ namespace PremierBeef.Infrastructure.Repository
                             detalle = us.Detalle,
                             usuarioRegistro = us.UsuarioRegistro,
                             usuarioRegistroCompleto = us.UsuarioRegistroCompleto,
-                            fechaReclamo = us.FechaReclamo,
+                            fechaReclamo = (us.FechaReclamo.Trim() == "01/01/0001") ? "" : us.FechaReclamo.Trim(),
                             tipoReclamo = us.TipoReclamo,
                             pedido = us.Pedido,
                             cliente = us.Cliente,
                             respuesta = us.Respuesta,
                             usuarioRespuesta = us.UsuarioRespuesta,
                             usuarioRespuestaCompleto = us.UsuarioRespuestaCompleto,
-                            fechaRespuesta = us.FechaRespuesta
+                            fechaRespuesta = (us.FechaRespuesta.Trim() == "01/01/0001") ? "" : us.FechaRespuesta.Trim()
                         });
                     }
 

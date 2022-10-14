@@ -1,0 +1,28 @@
+﻿D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\Controllers\AlmacenController.cs
+D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\Controllers\AuthenticationController.cs
+D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\Controllers\CategoriaController.cs
+D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\Controllers\ClienteController.cs
+D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\Controllers\PedidoController.cs
+D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\Controllers\ProductoController.cs
+D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\Controllers\PromocionController.cs
+D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\Controllers\ProveedorController.cs
+D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\Controllers\ReclamoController.cs
+D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\Controllers\ReclamoTipoController.cs
+D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\Controllers\ReporteController.cs
+D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\Controllers\RolController.cs
+D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\Controllers\TipoDocumentoController.cs
+D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\Controllers\UsuarioController.cs
+D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\Program.cs
+D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\obj\Debug\net6.0\PremierBeef.API.GlobalUsings.g.cs
+D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\obj\Debug\net6.0\PremierBeef.API.AssemblyInfo.cs
+D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\obj\Debug\net6.0\PremierBeef.API.MvcApplicationPartsAssemblyInfo.cs
+D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\appsettings.Development.json
+D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\appsettings.json
+D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\Properties\launchSettings.json
+D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\Properties\serviceDependencies.json
+D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\Properties\serviceDependencies.PremierBeefBackend - Web Deploy.json
+D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\Properties\ServiceDependencies\PremierBeefBackend - Web Deploy\apis1.arm.json
+D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\Properties\ServiceDependencies\PremierBeefBackend - Web Deploy\mssql1.arm.json
+D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\Properties\ServiceDependencies\PremierBeefBackend - Web Deploy\profile.arm.json
+D:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.API\Properties\PublishProfiles\PremierBeefBackend - Web Deploy.pubxml

@@ -7,7 +7,7 @@ namespace PremierBeef.Application.Services.Categoria
     public interface ICategoriaService
     {
         Task<int> AddCategoria(CategoriaModel newU);
-        Task<int> UpdateCategoria(CategoriaModel newU);
+        Task<bool> UpdateCategoria(CategoriaModel newU);
         Task<int> RemoveCategoria(int id);
         Task<CategoriaViewModel> GetCategoriaByCategoria(string cat);
         Task<CategoriaViewModel> GetCategoriaById(int id);

@@ -302,6 +302,45 @@ apeMaterno  
 ;0 1
 }2 3
 } 
+} è
+WD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\Constantes\Constantes.cs
+	namespace 	
+PremierBeef
+ 
+. 
+Core 
+. 
+Entities #
+.# $
+
+Constantes$ .
+{ 
+public		 
+
+class		 
+
+Constantes		 
+{
+
+ 
+public 
+enum 
+ReclamoEstados "
+{ 	
+
+Registrado 
+= 
+$num 
+, 
+Resuelto 
+= 
+$num 
+, 
+Anulado 
+= 
+$num 
+} 	
+} 
 } è
 QD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\PasswordOptions.cs
 	namespace 	
@@ -452,7 +491,7 @@ JD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\Producto.cs
 ;2 3
 }4 5
 } 
-} ë
+} Œ
 KD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\Promocion.cs
 	namespace 	
 PremierBeef
@@ -577,9 +616,27 @@ KD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\Promocion.cs
 ;+ ,
 set- 0
 ;0 1
-}2 3
-} 
-} î
+}2 3
+public 
+string 
+fecInicioStr "
+{# $
+get% (
+;( )
+set* -
+;- .
+}/ 0
+public 
+string 
+	fecFinStr 
+{  !
+get" %
+;% &
+set' *
+;* +
+}, -
+} 
+} î
 RD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\PromocionDetalle.cs
 	namespace 	
 PremierBeef
@@ -738,7 +795,7 @@ KD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\Proveedor.cs
 ;2 3
 }4 5
 } 
-} È
+} Í
 ID:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\Reclamo.cs
 	namespace 	
 PremierBeef
@@ -898,15 +955,15 @@ fecReclamo "
 set( +
 ;+ ,
 }- .
-public 
-int 
-estado 
-{ 
-get 
-;  
-set! $
-;$ %
-}& '
+public 
+bool 
+estado 
+{ 
+get  
+;  !
+set" %
+;% &
+}' (
 } 
 } ü
 MD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\ReclamoTipo.cs
@@ -962,7 +1019,7 @@ MD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\ReclamoTipo.cs
 }		 
 }
 
- ¡
+ ﬂ
 XD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\Reportes\FiltroReporte.cs
 	namespace 	
 PremierBeef
@@ -1005,9 +1062,20 @@ XD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\Reportes\FiltroR
 ;! "
 set# &
 ;& '
-}( )
-} 
-}		 Ì
+}( )
+public 
+int 
+idTipoReclamo  
+{! "
+get# &
+;& '
+set( +
+;+ ,
+}- .
+}		 
+}
+
+ Ì
 ZD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\Reportes\ReporteDelivery.cs
 	namespace 	
 PremierBeef
@@ -1583,7 +1651,7 @@ WD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\Reportes\Reporte
 ;/ 0
 }1 2
 } 
-} È
+} ™
 XD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\Reportes\ReporteVentas.cs
 	namespace 	
 PremierBeef
@@ -1611,7 +1679,7 @@ XD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\Reportes\Reporte
 }" #
 public 
 string 
-detalle 
+cliente 
 { 
 get  #
 ;# $
@@ -1619,115 +1687,97 @@ XD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\Reportes\Reporte
 ;( )
 }* +
 public 
-string 
-usuarioRegistro %
-{& '
-get( +
-;+ ,
-set- 0
-;0 1
-}2 3
+string 
+tipo_documento $
+{% &
+get' *
+;* +
+set, /
+;/ 0
+}1 2
 public 
-string #
-usuarioRegistroCompleto -
-{. /
-get0 3
-;3 4
-set5 8
-;8 9
-}: ;
+string 
+	documento 
+{  !
+get" %
+;% &
+set' *
+;* +
+}, -
 public		 
-string		 
-fechaReclamo		 "
-{		# $
-get		% (
-;		( )
-set		* -
-;		- .
-}		/ 0
+string		 
+fecha_emision		 #
+{		$ %
+get		& )
+;		) *
+set		+ .
+;		. /
+}		0 1
 public
 
  
 string
 
- 
-tipoReclamo
+ 
+tipo_comprobante
 
- !
+ &
 {
 
-" #
-get
-
-$ '
-;
-
 ' (
-set
+get
 
 ) ,
 ;
 
-, -
+, -
+set
+
+. 1
+;
+
+1 2
 }
 
-. /
-public 
-int 
-pedido 
-{ 
-get 
-;  
-set! $
-;$ %
-}& '
-public 
-string 
-cliente 
-{ 
-get  #
-;# $
-set% (
-;( )
-}* +
-public 
-string 
-	respuesta 
-{  !
-get" %
-;% &
-set' *
-;* +
-}, -
-public 
-string 
-usuarioRespuesta &
-{' (
-get) ,
-;, -
-set. 1
-;1 2
-}3 4
-public 
-string $
-usuarioRespuestaCompleto .
-{/ 0
-get1 4
-;4 5
-set6 9
-;9 :
-}; <
-public 
-string 
-fechaRespuesta $
-{% &
-get' *
-;* +
-set, /
-;/ 0
-}1 2
-} 
-} è
+3 4
+public 
+string 
+serie_comprobante '
+{( )
+get* -
+;- .
+set/ 2
+;2 3
+}4 5
+public 
+decimal 
+importe_grabado &
+{' (
+get) ,
+;, -
+set. 1
+;1 2
+}3 4
+public 
+decimal 
+importe_igv "
+{# $
+get% (
+;( )
+set* -
+;- .
+}/ 0
+public 
+decimal 
+importe_total $
+{% &
+get' *
+;* +
+set, /
+;/ 0
+}1 2
+} 
+} è
 ED:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\Rol.cs
 	namespace 	
 PremierBeef
@@ -1781,7 +1831,7 @@ ED:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\Rol.cs
 }		 
 }
 
- £
+ À
 OD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\TipoDocumento.cs
 	namespace 	
 PremierBeef
@@ -1823,19 +1873,28 @@ OD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\TipoDocumento.cs
 set) ,
 ;, -
 }. /
-public 
-bool 
-estado 
-{ 
-get  
-;  !
-set" %
-;% &
-}' (
-}		 
-}
+public 
+int #
+longitudNumeroDocumento *
+{+ ,
+get- 0
+;0 1
+set2 5
+;5 6
+}7 8
+public		 
+bool		 
+estado		 
+{		 
+get		  
+;		  !
+set		" %
+;		% &
+}		' (
+}
 
- ‚
+ 
+} ‚
 ID:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Entities\Usuario.cs
 	namespace 	
 PremierBeef
@@ -1970,7 +2029,7 @@ apeMaterno  
 ;2 3
 }4 5
 } 
-} ˙
+} ˚
 
 VD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Interfaces\IAlmacenRepository.cs
 	namespace 	
@@ -1999,15 +2058,15 @@ AddAlmacen 
 )' (
 ;( )
 Task 
-< 
-int 
-> 
-UpdateAlmacen 
-(  
-Almacen  '
-us( *
-)* +
-;+ ,
+< 
+bool 
+> 
+UpdateAlmacen  
+(  !
+Almacen! (
+us) +
+)+ ,
+;, -
 Task		 
 <		 
 int		 
@@ -2070,7 +2129,7 @@ AddAlmacen 
 )( )
 ;) *
 } 
-} ò
+} ô
 XD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Interfaces\ICategoriaRepository.cs
 	namespace 	
 PremierBeef
@@ -2097,15 +2156,15 @@ Interfaces %
 )+ ,
 ;, -
 Task 
-< 
-int 
-> 
-UpdateCategoria !
-(! "
-	Categoria" +
-us, .
-). /
-;/ 0
+< 
+bool 
+> 
+UpdateCategoria "
+(" #
+	Categoria# ,
+us- /
+)/ 0
+;0 1
 Task		 
 <		 
 int		 
@@ -2168,8 +2227,7 @@ Interfaces %
 ), -
 ;- .
 } 
-} ˚
-
+} ∫
 VD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Interfaces\IClienteRepository.cs
 	namespace 	
 PremierBeef
@@ -2197,15 +2255,15 @@ AddCliente 
 )' (
 ;( )
 Task 
-< 
-int 
-> 
-UpdateCliente 
-(  
-Cliente  '
-us( *
-)* +
-;+ ,
+< 
+bool 
+> 
+UpdateCliente  
+(  !
+Cliente! (
+us) +
+)+ ,
+;, -
 Task		 
 <		 
 int		 
@@ -2257,18 +2315,28 @@ AddCliente 
 )9 :
 ;: ;
 Task 
-< 
-List 
-< 
-Cliente 
-> 
-> 
-GetClientes '
-(' (
-)( )
-;) *
-} 
-} â
+< 
+Cliente 
+> $
+GetClienteByNroDocumento .
+(. /
+Cliente/ 6
+cli7 :
+): ;
+;; <
+Task 
+< 
+List 
+< 
+Cliente 
+> 
+> 
+GetClientes '
+(' (
+)( )
+;) *
+} 
+} ä
 WD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Interfaces\IProductoRepository.cs
 	namespace 	
 PremierBeef
@@ -2295,15 +2363,15 @@ Interfaces %
 )) *
 ;* +
 Task 
-< 
-int 
-> 
-UpdateProducto  
-(  !
-Producto! )
-us* ,
-), -
-;- .
+< 
+bool 
+> 
+UpdateProducto !
+(! "
+Producto" *
+us+ -
+)- .
+;. /
 Task		 
 <		 
 int		 
@@ -2497,7 +2565,7 @@ Interfaces %
 )@ A
 ;A B
 } 
-} ô
+} ö
 XD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Interfaces\IProveedorRepository.cs
 	namespace 	
 PremierBeef
@@ -2535,15 +2603,15 @@ Interfaces %
 )+ ,
 ;, -
 Task		 
-<		 
-int		 
->		 
-UpdateProveedor		 !
-(		! "
-	Proveedor		" +
-us		, .
-)		. /
-;		/ 0
+<		 
+bool		 
+>		 
+UpdateProveedor		 "
+(		" #
+	Proveedor		# ,
+us		- /
+)		/ 0
+;		0 1
 Task
 
  
@@ -2595,7 +2663,7 @@ Interfaces %
 )@ A
 ;A B
 } 
-} æ	
+} ¿	
 VD:\Proyectos\NetCore\UPC_PI2_Backend\PremierBeef.Core\Interfaces\IReclamoRepository.cs
 	namespace 	
 PremierBeef
@@ -2623,25 +2691,25 @@ AddReclamo 
 )' (
 ;( )
 Task 
-< 
-int 
-> 
-UpdateReclamo 
-(  
-Reclamo  '
-us( *
-)* +
-;+ ,
+< 
+bool 
+> 
+UpdateReclamo  
+(  !
+Reclamo! (
+us) +
+)+ ,
+;, -
 Task		 
-<		 
-int		 
->		 
-RemoveReclamo		 
-(		  
-int		  #
-id		$ &
-)		& '
-;		' (
+<		 
+bool		 
+>		 
+RemoveReclamo		  
+(		  !
+int		! $
+id		% '
+)		' (
+;		( )
 Task
 
  

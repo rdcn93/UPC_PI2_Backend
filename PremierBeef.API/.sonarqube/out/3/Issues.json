@@ -6,7 +6,7 @@
       "tool": {
         "name": "Compilador de Microsoft (R) Visual C#",
         "version": "4.3.0.0",
-        "fileVersion": "4.3.0-3.22365.10 (dd078d4e)",
+        "fileVersion": "4.3.0-3.22415.1 (8301d484)",
         "semanticVersion": "4.3.0",
         "language": "es-ES"
       },
@@ -456,6 +456,40 @@
         {
           "ruleId": "CS8618",
           "level": "warning",
+          "message": "El elemento propiedad \"dbo_GetReporteVentas\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Data/PremierContext.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 16,
+                  "endLine": 9,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Data/PremierContext.cs",
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 44,
+                  "endLine": 34,
+                  "endColumn": 64
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
           "message": "El elemento propiedad \"usuarios\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
           "locations": [
             {
@@ -898,6 +932,61 @@
         {
           "ruleId": "CS8618",
           "level": "warning",
+          "message": "El elemento propiedad \"dbo_GetReporteVentas\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Data/PremierContext.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 16,
+                  "endLine": 13,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Data/PremierContext.cs",
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 44,
+                  "endLine": 34,
+                  "endColumn": 64
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/UsuarioRepository.cs",
+                "region": {
+                  "startLine": 136,
+                  "startColumn": 49,
+                  "endLine": 136,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
           "message": "El elemento propiedad \"Usuario\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
           "locations": [
             {
@@ -1140,74 +1229,6 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/tb_tipo_documento.cs",
-                "region": {
-                  "startLine": 12,
-                  "startColumn": 23,
-                  "endLine": 12,
-                  "endColumn": 29
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/tb_tipo_documento.cs",
-                "region": {
-                  "startLine": 12,
-                  "startColumn": 23,
-                  "endLine": 12,
-                  "endColumn": 29
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"Descripcion\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/tb_tipo_documento.cs",
-                "region": {
-                  "startLine": 13,
-                  "startColumn": 23,
-                  "endLine": 13,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/tb_tipo_documento.cs",
-                "region": {
-                  "startLine": 13,
-                  "startColumn": 23,
-                  "endLine": 13,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"Nombre\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
                 "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/tb_rol.cs",
                 "region": {
                   "startLine": 12,
@@ -1276,6 +1297,74 @@
           "locations": [
             {
               "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/tb_tipo_documento.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 23,
+                  "endLine": 12,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/tb_tipo_documento.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 23,
+                  "endLine": 12,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Descripcion\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/tb_tipo_documento.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 23,
+                  "endLine": 13,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/tb_tipo_documento.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 23,
+                  "endLine": 13,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Nombre\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
                 "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/tb_reclamo_tipo.cs",
                 "region": {
                   "startLine": 12,
@@ -1329,74 +1418,6 @@
                   "startColumn": 23,
                   "endLine": 13,
                   "endColumn": 34
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"Detalle\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/tb_reclamo.cs",
-                "region": {
-                  "startLine": 12,
-                  "startColumn": 23,
-                  "endLine": 12,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/tb_reclamo.cs",
-                "region": {
-                  "startLine": 12,
-                  "startColumn": 23,
-                  "endLine": 12,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"Respuesta\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/tb_reclamo.cs",
-                "region": {
-                  "startLine": 16,
-                  "startColumn": 23,
-                  "endLine": 16,
-                  "endColumn": 32
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/tb_reclamo.cs",
-                "region": {
-                  "startLine": 16,
-                  "startColumn": 23,
-                  "endLine": 16,
-                  "endColumn": 32
                 }
               }
             }
@@ -1578,6 +1599,74 @@
         {
           "ruleId": "CS8618",
           "level": "warning",
+          "message": "El elemento propiedad \"Detalle\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/tb_reclamo.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 23,
+                  "endLine": 12,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/tb_reclamo.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 23,
+                  "endLine": 12,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Respuesta\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/tb_reclamo.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 23,
+                  "endLine": 16,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/tb_reclamo.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 23,
+                  "endLine": 16,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
           "message": "El elemento propiedad \"Nombre\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
           "locations": [
             {
@@ -1669,6 +1758,48 @@
                   "startColumn": 34,
                   "endLine": 22,
                   "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/UsuarioRepository.cs",
+                "region": {
+                  "startLine": 172,
+                  "startColumn": 45,
+                  "endLine": 172,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/UsuarioRepository.cs",
+                "region": {
+                  "startLine": 208,
+                  "startColumn": 45,
+                  "endLine": 208,
+                  "endColumn": 49
                 }
               }
             }
@@ -2054,6 +2185,346 @@
         {
           "ruleId": "CS8618",
           "level": "warning",
+          "message": "El elemento propiedad \"Nombre\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/tb_almacen.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 23,
+                  "endLine": 12,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/tb_almacen.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 23,
+                  "endLine": 12,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Descripcion\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/tb_almacen.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 23,
+                  "endLine": 13,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/tb_almacen.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 23,
+                  "endLine": 13,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Direccion\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/tb_almacen.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 23,
+                  "endLine": 14,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/tb_almacen.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 23,
+                  "endLine": 14,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Telefono\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/tb_almacen.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 23,
+                  "endLine": 15,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/tb_almacen.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 23,
+                  "endLine": 15,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Cliente\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/dbo_GetReporteVentas.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 23,
+                  "endLine": 12,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/dbo_GetReporteVentas.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 23,
+                  "endLine": 12,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Tipo_documento\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/dbo_GetReporteVentas.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 23,
+                  "endLine": 13,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/dbo_GetReporteVentas.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 23,
+                  "endLine": 13,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Documento\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/dbo_GetReporteVentas.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 23,
+                  "endLine": 14,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/dbo_GetReporteVentas.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 23,
+                  "endLine": 14,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Fecha_emision\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/dbo_GetReporteVentas.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 23,
+                  "endLine": 15,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/dbo_GetReporteVentas.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 23,
+                  "endLine": 15,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Tipo_comprobante\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/dbo_GetReporteVentas.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 23,
+                  "endLine": 16,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/dbo_GetReporteVentas.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 23,
+                  "endLine": 16,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Serie_comprobante\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/dbo_GetReporteVentas.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 23,
+                  "endLine": 17,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/dbo_GetReporteVentas.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 23,
+                  "endLine": 17,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
           "message": "El elemento propiedad \"Detalle\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
           "locations": [
             {
@@ -2398,185 +2869,154 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/AlmacenRepository.cs",
-                "region": {
-                  "startLine": 119,
-                  "startColumn": 49,
-                  "endLine": 119,
-                  "endColumn": 53
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8625",
-          "level": "warning",
-          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/UsuarioRepository.cs",
-                "region": {
-                  "startLine": 136,
-                  "startColumn": 49,
-                  "endLine": 136,
-                  "endColumn": 53
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"Nombre\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/tb_almacen.cs",
-                "region": {
-                  "startLine": 12,
-                  "startColumn": 23,
-                  "endLine": 12,
-                  "endColumn": 29
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/tb_almacen.cs",
-                "region": {
-                  "startLine": 12,
-                  "startColumn": 23,
-                  "endLine": 12,
-                  "endColumn": 29
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"Descripcion\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/tb_almacen.cs",
-                "region": {
-                  "startLine": 13,
-                  "startColumn": 23,
-                  "endLine": 13,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/tb_almacen.cs",
-                "region": {
-                  "startLine": 13,
-                  "startColumn": 23,
-                  "endLine": 13,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"Direccion\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/tb_almacen.cs",
-                "region": {
-                  "startLine": 14,
-                  "startColumn": 23,
-                  "endLine": 14,
-                  "endColumn": 32
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/tb_almacen.cs",
-                "region": {
-                  "startLine": 14,
-                  "startColumn": 23,
-                  "endLine": 14,
-                  "endColumn": 32
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"Telefono\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/tb_almacen.cs",
-                "region": {
-                  "startLine": 15,
-                  "startColumn": 23,
-                  "endLine": 15,
-                  "endColumn": 31
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/tb_almacen.cs",
-                "region": {
-                  "startLine": 15,
-                  "startColumn": 23,
-                  "endLine": 15,
-                  "endColumn": 31
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8625",
-          "level": "warning",
-          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
-          "locations": [
-            {
-              "resultFile": {
                 "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ReclamoRepository.cs",
+                "region": {
+                  "startLine": 145,
+                  "startColumn": 49,
+                  "endLine": 145,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ProductoRepository.cs",
+                "region": {
+                  "startLine": 117,
+                  "startColumn": 50,
+                  "endLine": 117,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ProductoRepository.cs",
+                "region": {
+                  "startLine": 150,
+                  "startColumn": 46,
+                  "endLine": 150,
+                  "endColumn": 50
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ProveedorRepository.cs",
+                "region": {
+                  "startLine": 152,
+                  "startColumn": 51,
+                  "endLine": 152,
+                  "endColumn": 55
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/CategoriaRepository.cs",
+                "region": {
+                  "startLine": 107,
+                  "startColumn": 51,
+                  "endLine": 107,
+                  "endColumn": 55
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ProveedorRepository.cs",
+                "region": {
+                  "startLine": 184,
+                  "startColumn": 47,
+                  "endLine": 184,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/CategoriaRepository.cs",
+                "region": {
+                  "startLine": 138,
+                  "startColumn": 47,
+                  "endLine": 138,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ClienteRepository.cs",
                 "region": {
                   "startLine": 129,
                   "startColumn": 49,
@@ -2597,259 +3037,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/AlmacenRepository.cs",
-                "region": {
-                  "startLine": 148,
-                  "startColumn": 49,
-                  "endLine": 148,
-                  "endColumn": 53
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8625",
-          "level": "warning",
-          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/AlmacenRepository.cs",
-                "region": {
-                  "startLine": 151,
-                  "startColumn": 45,
-                  "endLine": 151,
-                  "endColumn": 49
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8625",
-          "level": "warning",
-          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/UsuarioRepository.cs",
-                "region": {
-                  "startLine": 172,
-                  "startColumn": 45,
-                  "endLine": 172,
-                  "endColumn": 49
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8625",
-          "level": "warning",
-          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/UsuarioRepository.cs",
-                "region": {
-                  "startLine": 208,
-                  "startColumn": 45,
-                  "endLine": 208,
-                  "endColumn": 49
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8625",
-          "level": "warning",
-          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
-          "locations": [
-            {
-              "resultFile": {
                 "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/PromocionRepository.cs",
-                "region": {
-                  "startLine": 151,
-                  "startColumn": 51,
-                  "endLine": 151,
-                  "endColumn": 55
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8625",
-          "level": "warning",
-          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/PromocionRepository.cs",
-                "region": {
-                  "startLine": 185,
-                  "startColumn": 47,
-                  "endLine": 185,
-                  "endColumn": 51
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8625",
-          "level": "warning",
-          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/CategoriaRepository.cs",
-                "region": {
-                  "startLine": 111,
-                  "startColumn": 51,
-                  "endLine": 111,
-                  "endColumn": 55
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8625",
-          "level": "warning",
-          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/CategoriaRepository.cs",
-                "region": {
-                  "startLine": 142,
-                  "startColumn": 47,
-                  "endLine": 142,
-                  "endColumn": 51
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8625",
-          "level": "warning",
-          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ClienteRepository.cs",
-                "region": {
-                  "startLine": 132,
-                  "startColumn": 49,
-                  "endLine": 132,
-                  "endColumn": 53
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8625",
-          "level": "warning",
-          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ClienteRepository.cs",
-                "region": {
-                  "startLine": 172,
-                  "startColumn": 45,
-                  "endLine": 172,
-                  "endColumn": 49
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8625",
-          "level": "warning",
-          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ProductoRepository.cs",
-                "region": {
-                  "startLine": 119,
-                  "startColumn": 50,
-                  "endLine": 119,
-                  "endColumn": 54
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8625",
-          "level": "warning",
-          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ProductoRepository.cs",
-                "region": {
-                  "startLine": 152,
-                  "startColumn": 46,
-                  "endLine": 152,
-                  "endColumn": 50
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8625",
-          "level": "warning",
-          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ProveedorRepository.cs",
                 "region": {
                   "startLine": 153,
                   "startColumn": 51,
@@ -2870,12 +3058,117 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ProveedorRepository.cs",
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/PromocionRepository.cs",
                 "region": {
-                  "startLine": 185,
+                  "startLine": 187,
                   "startColumn": 47,
-                  "endLine": 185,
+                  "endLine": 187,
                   "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ClienteRepository.cs",
+                "region": {
+                  "startLine": 169,
+                  "startColumn": 45,
+                  "endLine": 169,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ClienteRepository.cs",
+                "region": {
+                  "startLine": 207,
+                  "startColumn": 45,
+                  "endLine": 207,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/AlmacenRepository.cs",
+                "region": {
+                  "startLine": 123,
+                  "startColumn": 49,
+                  "endLine": 123,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/AlmacenRepository.cs",
+                "region": {
+                  "startLine": 152,
+                  "startColumn": 49,
+                  "endLine": 152,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/AlmacenRepository.cs",
+                "region": {
+                  "startLine": 155,
+                  "startColumn": 45,
+                  "endLine": 155,
+                  "endColumn": 49
                 }
               }
             }
@@ -2893,9 +3186,9 @@
               "resultFile": {
                 "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Data/PremierContext.cs",
                 "region": {
-                  "startLine": 45,
+                  "startLine": 47,
                   "startColumn": 13,
-                  "endLine": 45,
+                  "endLine": 47,
                   "endColumn": 99
                 }
               }
@@ -2933,159 +3226,12 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/AlmacenRepository.cs",
-                "region": {
-                  "startLine": 63,
-                  "startColumn": 17,
-                  "endLine": 63,
-                  "endColumn": 56
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S125",
-          "level": "warning",
-          "message": "Remove this commented out code.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/CategoriaRepository.cs",
-                "region": {
-                  "startLine": 57,
-                  "startColumn": 17,
-                  "endLine": 57,
-                  "endColumn": 56
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S125",
-          "level": "warning",
-          "message": "Remove this commented out code.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/CategoriaRepository.cs",
-                "region": {
-                  "startLine": 64,
-                  "startColumn": 17,
-                  "endLine": 64,
-                  "endColumn": 90
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S125",
-          "level": "warning",
-          "message": "Remove this commented out code.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ClienteRepository.cs",
-                "region": {
-                  "startLine": 71,
-                  "startColumn": 17,
-                  "endLine": 71,
-                  "endColumn": 56
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S125",
-          "level": "warning",
-          "message": "Remove this commented out code.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ProductoRepository.cs",
-                "region": {
-                  "startLine": 63,
-                  "startColumn": 17,
-                  "endLine": 63,
-                  "endColumn": 57
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S125",
-          "level": "warning",
-          "message": "Remove this commented out code.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ProveedorRepository.cs",
-                "region": {
-                  "startLine": 96,
-                  "startColumn": 17,
-                  "endLine": 96,
-                  "endColumn": 56
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S125",
-          "level": "warning",
-          "message": "Remove this commented out code.",
-          "locations": [
-            {
-              "resultFile": {
                 "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ReclamoRepository.cs",
                 "region": {
-                  "startLine": 68,
+                  "startLine": 191,
                   "startColumn": 17,
-                  "endLine": 68,
-                  "endColumn": 56
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S125",
-          "level": "warning",
-          "message": "Remove this commented out code.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/UsuarioRepository.cs",
-                "region": {
-                  "startLine": 69,
-                  "startColumn": 17,
-                  "endLine": 69,
-                  "endColumn": 57
+                  "endLine": 191,
+                  "endColumn": 86
                 }
               }
             }
@@ -3128,6 +3274,27 @@
                   "startColumn": 18,
                   "endLine": 7,
                   "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'dbo_GetReporteVentas' to match pascal case naming rules, consider using 'DboGetReporteVentas'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/dbo_GetReporteVentas.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 18,
+                  "endLine": 9,
+                  "endColumn": 38
                 }
               }
             }
@@ -3244,27 +3411,6 @@
         {
           "ruleId": "S101",
           "level": "warning",
-          "message": "Rename class 'tb_reclamo_tipo' to match pascal case naming rules, consider using 'Tbreclamotipo'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/tb_reclamo_tipo.cs",
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 18,
-                  "endLine": 7,
-                  "endColumn": 33
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S101",
-          "level": "warning",
           "message": "Rename class 'tb_proveedor' to match pascal case naming rules, consider using 'Tbproveedor'.",
           "locations": [
             {
@@ -3286,53 +3432,11 @@
         {
           "ruleId": "S101",
           "level": "warning",
-          "message": "Rename class 'tb_rol' to match pascal case naming rules, consider using 'Tbrol'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/tb_rol.cs",
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 18,
-                  "endLine": 7,
-                  "endColumn": 24
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S101",
-          "level": "warning",
           "message": "Rename class 'tb_reclamo' to match pascal case naming rules, consider using 'Tbreclamo'.",
           "locations": [
             {
               "resultFile": {
                 "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/tb_reclamo.cs",
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 18,
-                  "endLine": 7,
-                  "endColumn": 28
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S101",
-          "level": "warning",
-          "message": "Rename class 'tb_usuario' to match pascal case naming rules, consider using 'Tbusuario'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/tb_usuario.cs",
                 "region": {
                   "startLine": 7,
                   "startColumn": 18,
@@ -3368,17 +3472,80 @@
           }
         },
         {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'tb_reclamo_tipo' to match pascal case naming rules, consider using 'Tbreclamotipo'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/tb_reclamo_tipo.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 18,
+                  "endLine": 7,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'tb_rol' to match pascal case naming rules, consider using 'Tbrol'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/tb_rol.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 18,
+                  "endLine": 7,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'tb_usuario' to match pascal case naming rules, consider using 'Tbusuario'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Models/tb_usuario.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 18,
+                  "endLine": 7,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
           "ruleId": "S2486",
           "level": "warning",
           "message": "Handle the exception or explain in a comment why it can be ignored.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/AlmacenRepository.cs",
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/UsuarioRepository.cs",
                 "region": {
-                  "startLine": 75,
+                  "startLine": 79,
                   "startColumn": 13,
-                  "endLine": 78,
+                  "endLine": 82,
                   "endColumn": 14
                 }
               }
@@ -3395,11 +3562,11 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/AlmacenRepository.cs",
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/UsuarioRepository.cs",
                 "region": {
-                  "startLine": 76,
+                  "startLine": 80,
                   "startColumn": 13,
-                  "endLine": 78,
+                  "endLine": 82,
                   "endColumn": 14
                 }
               }
@@ -3410,18 +3577,86 @@
           }
         },
         {
-          "ruleId": "S2486",
+          "ruleId": "S1656",
           "level": "warning",
-          "message": "Handle the exception or explain in a comment why it can be ignored.",
+          "message": "Remove or correct this useless self-assignment.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ReclamoRepository.cs",
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/UsuarioRepository.cs",
                 "region": {
-                  "startLine": 80,
-                  "startColumn": 13,
-                  "endLine": 83,
-                  "endColumn": 14
+                  "startLine": 60,
+                  "startColumn": 21,
+                  "endLine": 60,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/UsuarioRepository.cs",
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 39,
+                  "endLine": 60,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1656",
+          "level": "warning",
+          "message": "Remove or correct this useless self-assignment.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/UsuarioRepository.cs",
+                "region": {
+                  "startLine": 61,
+                  "startColumn": 21,
+                  "endLine": 61,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/UsuarioRepository.cs",
+                "region": {
+                  "startLine": 61,
+                  "startColumn": 37,
+                  "endLine": 61,
+                  "endColumn": 50
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'sds'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/UsuarioRepository.cs",
+                "region": {
+                  "startLine": 74,
+                  "startColumn": 25,
+                  "endLine": 74,
+                  "endColumn": 28
                 }
               }
             }
@@ -3452,174 +3687,6 @@
           }
         },
         {
-          "ruleId": "S108",
-          "level": "warning",
-          "message": "Either remove or fill this block of code.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ReclamoRepository.cs",
-                "region": {
-                  "startLine": 81,
-                  "startColumn": 13,
-                  "endLine": 83,
-                  "endColumn": 14
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2486",
-          "level": "warning",
-          "message": "Handle the exception or explain in a comment why it can be ignored.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/PromocionRepository.cs",
-                "region": {
-                  "startLine": 39,
-                  "startColumn": 13,
-                  "endLine": 42,
-                  "endColumn": 14
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S108",
-          "level": "warning",
-          "message": "Either remove or fill this block of code.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/PromocionRepository.cs",
-                "region": {
-                  "startLine": 40,
-                  "startColumn": 13,
-                  "endLine": 42,
-                  "endColumn": 14
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2486",
-          "level": "warning",
-          "message": "Handle the exception or explain in a comment why it can be ignored.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ReclamoTipoRepository.cs",
-                "region": {
-                  "startLine": 36,
-                  "startColumn": 13,
-                  "endLine": 39,
-                  "endColumn": 14
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S108",
-          "level": "warning",
-          "message": "Either remove or fill this block of code.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ReclamoTipoRepository.cs",
-                "region": {
-                  "startLine": 37,
-                  "startColumn": 13,
-                  "endLine": 39,
-                  "endColumn": 14
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S927",
-          "level": "warning",
-          "message": "Rename parameter 'Almacen' to 'almacen' to match the interface declaration.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/AlmacenRepository.cs",
-                "region": {
-                  "startLine": 122,
-                  "startColumn": 57,
-                  "endLine": 122,
-                  "endColumn": 64
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2486",
-          "level": "warning",
-          "message": "Handle the exception or explain in a comment why it can be ignored.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/RolRepository.cs",
-                "region": {
-                  "startLine": 36,
-                  "startColumn": 13,
-                  "endLine": 39,
-                  "endColumn": 14
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S108",
-          "level": "warning",
-          "message": "Either remove or fill this block of code.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/RolRepository.cs",
-                "region": {
-                  "startLine": 37,
-                  "startColumn": 13,
-                  "endLine": 39,
-                  "endColumn": 14
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "S2737",
           "level": "warning",
           "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
@@ -3631,27 +3698,6 @@
                   "startLine": 202,
                   "startColumn": 13,
                   "endLine": 206,
-                  "endColumn": 14
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2486",
-          "level": "warning",
-          "message": "Handle the exception or explain in a comment why it can be ignored.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ReclamoRepository.cs",
-                "region": {
-                  "startLine": 160,
-                  "startColumn": 13,
-                  "endLine": 163,
                   "endColumn": 14
                 }
               }
@@ -3704,38 +3750,17 @@
           }
         },
         {
-          "ruleId": "S108",
+          "ruleId": "S2486",
           "level": "warning",
-          "message": "Either remove or fill this block of code.",
+          "message": "Handle the exception or explain in a comment why it can be ignored.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ReclamoRepository.cs",
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/TipoDocumentoRepository.cs",
                 "region": {
-                  "startLine": 161,
+                  "startLine": 37,
                   "startColumn": 13,
-                  "endLine": 163,
-                  "endColumn": 14
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2737",
-          "level": "warning",
-          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/PromocionRepository.cs",
-                "region": {
-                  "startLine": 179,
-                  "startColumn": 13,
-                  "endLine": 183,
+                  "endLine": 40,
                   "endColumn": 14
                 }
               }
@@ -3752,7 +3777,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/TipoDocumentoRepository.cs",
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/RolRepository.cs",
                 "region": {
                   "startLine": 36,
                   "startColumn": 13,
@@ -3775,6 +3800,27 @@
               "resultFile": {
                 "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/TipoDocumentoRepository.cs",
                 "region": {
+                  "startLine": 38,
+                  "startColumn": 13,
+                  "endLine": 40,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S108",
+          "level": "warning",
+          "message": "Either remove or fill this block of code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/RolRepository.cs",
+                "region": {
                   "startLine": 37,
                   "startColumn": 13,
                   "endLine": 39,
@@ -3794,452 +3840,11 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/PromocionRepository.cs",
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ReclamoRepository.cs",
                 "region": {
-                  "startLine": 206,
+                  "startLine": 86,
                   "startColumn": 13,
-                  "endLine": 208,
-                  "endColumn": 14
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S108",
-          "level": "warning",
-          "message": "Either remove or fill this block of code.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/PromocionRepository.cs",
-                "region": {
-                  "startLine": 207,
-                  "startColumn": 13,
-                  "endLine": 208,
-                  "endColumn": 14
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2486",
-          "level": "warning",
-          "message": "Handle the exception or explain in a comment why it can be ignored.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/PromocionRepository.cs",
-                "region": {
-                  "startLine": 225,
-                  "startColumn": 13,
-                  "endLine": 227,
-                  "endColumn": 14
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S108",
-          "level": "warning",
-          "message": "Either remove or fill this block of code.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/PromocionRepository.cs",
-                "region": {
-                  "startLine": 226,
-                  "startColumn": 13,
-                  "endLine": 227,
-                  "endColumn": 14
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2486",
-          "level": "warning",
-          "message": "Handle the exception or explain in a comment why it can be ignored.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/CategoriaRepository.cs",
-                "region": {
-                  "startLine": 69,
-                  "startColumn": 13,
-                  "endLine": 72,
-                  "endColumn": 14
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S108",
-          "level": "warning",
-          "message": "Either remove or fill this block of code.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/CategoriaRepository.cs",
-                "region": {
-                  "startLine": 70,
-                  "startColumn": 13,
-                  "endLine": 72,
-                  "endColumn": 14
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2737",
-          "level": "warning",
-          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/CategoriaRepository.cs",
-                "region": {
-                  "startLine": 136,
-                  "startColumn": 13,
-                  "endLine": 140,
-                  "endColumn": 14
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2486",
-          "level": "warning",
-          "message": "Handle the exception or explain in a comment why it can be ignored.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/CategoriaRepository.cs",
-                "region": {
-                  "startLine": 167,
-                  "startColumn": 13,
-                  "endLine": 170,
-                  "endColumn": 14
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S108",
-          "level": "warning",
-          "message": "Either remove or fill this block of code.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/CategoriaRepository.cs",
-                "region": {
-                  "startLine": 168,
-                  "startColumn": 13,
-                  "endLine": 170,
-                  "endColumn": 14
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2486",
-          "level": "warning",
-          "message": "Handle the exception or explain in a comment why it can be ignored.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ClienteRepository.cs",
-                "region": {
-                  "startLine": 84,
-                  "startColumn": 13,
-                  "endLine": 87,
-                  "endColumn": 14
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2486",
-          "level": "warning",
-          "message": "Handle the exception or explain in a comment why it can be ignored.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/PromocionRepository.cs",
-                "region": {
-                  "startLine": 245,
-                  "startColumn": 13,
-                  "endLine": 248,
-                  "endColumn": 14
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S108",
-          "level": "warning",
-          "message": "Either remove or fill this block of code.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/PromocionRepository.cs",
-                "region": {
-                  "startLine": 246,
-                  "startColumn": 13,
-                  "endLine": 248,
-                  "endColumn": 14
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S108",
-          "level": "warning",
-          "message": "Either remove or fill this block of code.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ClienteRepository.cs",
-                "region": {
-                  "startLine": 85,
-                  "startColumn": 13,
-                  "endLine": 87,
-                  "endColumn": 14
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2737",
-          "level": "warning",
-          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ClienteRepository.cs",
-                "region": {
-                  "startLine": 166,
-                  "startColumn": 13,
-                  "endLine": 170,
-                  "endColumn": 14
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2486",
-          "level": "warning",
-          "message": "Handle the exception or explain in a comment why it can be ignored.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ProductoRepository.cs",
-                "region": {
-                  "startLine": 75,
-                  "startColumn": 13,
-                  "endLine": 78,
-                  "endColumn": 14
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S927",
-          "level": "warning",
-          "message": "Rename parameter 'cli' to 'cliente' to match the interface declaration.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ClienteRepository.cs",
-                "region": {
-                  "startLine": 135,
-                  "startColumn": 58,
-                  "endLine": 135,
-                  "endColumn": 61
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S108",
-          "level": "warning",
-          "message": "Either remove or fill this block of code.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ProductoRepository.cs",
-                "region": {
-                  "startLine": 76,
-                  "startColumn": 13,
-                  "endLine": 78,
-                  "endColumn": 14
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2486",
-          "level": "warning",
-          "message": "Handle the exception or explain in a comment why it can be ignored.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ClienteRepository.cs",
-                "region": {
-                  "startLine": 203,
-                  "startColumn": 13,
-                  "endLine": 206,
-                  "endColumn": 14
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S108",
-          "level": "warning",
-          "message": "Either remove or fill this block of code.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ClienteRepository.cs",
-                "region": {
-                  "startLine": 204,
-                  "startColumn": 13,
-                  "endLine": 206,
-                  "endColumn": 14
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2737",
-          "level": "warning",
-          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ProductoRepository.cs",
-                "region": {
-                  "startLine": 146,
-                  "startColumn": 13,
-                  "endLine": 150,
-                  "endColumn": 14
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2486",
-          "level": "warning",
-          "message": "Handle the exception or explain in a comment why it can be ignored.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ProductoRepository.cs",
-                "region": {
-                  "startLine": 179,
-                  "startColumn": 13,
-                  "endLine": 182,
-                  "endColumn": 14
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S108",
-          "level": "warning",
-          "message": "Either remove or fill this block of code.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ProductoRepository.cs",
-                "region": {
-                  "startLine": 180,
-                  "startColumn": 13,
-                  "endLine": 182,
+                  "endLine": 89,
                   "endColumn": 14
                 }
               }
@@ -4292,6 +3897,166 @@
           }
         },
         {
+          "ruleId": "S108",
+          "level": "warning",
+          "message": "Either remove or fill this block of code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ReclamoRepository.cs",
+                "region": {
+                  "startLine": 87,
+                  "startColumn": 13,
+                  "endLine": 89,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2486",
+          "level": "warning",
+          "message": "Handle the exception or explain in a comment why it can be ignored.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ReclamoTipoRepository.cs",
+                "region": {
+                  "startLine": 36,
+                  "startColumn": 13,
+                  "endLine": 39,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1656",
+          "level": "warning",
+          "message": "Remove or correct this useless self-assignment.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ReclamoRepository.cs",
+                "region": {
+                  "startLine": 68,
+                  "startColumn": 21,
+                  "endLine": 68,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ReclamoRepository.cs",
+                "region": {
+                  "startLine": 68,
+                  "startColumn": 38,
+                  "endLine": 68,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2486",
+          "level": "warning",
+          "message": "Handle the exception or explain in a comment why it can be ignored.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ReclamoRepository.cs",
+                "region": {
+                  "startLine": 111,
+                  "startColumn": 13,
+                  "endLine": 114,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S108",
+          "level": "warning",
+          "message": "Either remove or fill this block of code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ReclamoTipoRepository.cs",
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 13,
+                  "endLine": 39,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S108",
+          "level": "warning",
+          "message": "Either remove or fill this block of code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ReclamoRepository.cs",
+                "region": {
+                  "startLine": 112,
+                  "startColumn": 13,
+                  "endLine": 114,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'sds'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ReclamoRepository.cs",
+                "region": {
+                  "startLine": 81,
+                  "startColumn": 25,
+                  "endLine": 81,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
           "ruleId": "S2486",
           "level": "warning",
           "message": "Handle the exception or explain in a comment why it can be ignored.",
@@ -4334,6 +4099,444 @@
           }
         },
         {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'prov' to 'us' to match the interface declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ProveedorRepository.cs",
+                "region": {
+                  "startLine": 79,
+                  "startColumn": 53,
+                  "endLine": 79,
+                  "endColumn": 57
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1656",
+          "level": "warning",
+          "message": "Remove or correct this useless self-assignment.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ProveedorRepository.cs",
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 21,
+                  "endLine": 96,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ProveedorRepository.cs",
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 45,
+                  "endLine": 96,
+                  "endColumn": 66
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2486",
+          "level": "warning",
+          "message": "Handle the exception or explain in a comment why it can be ignored.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ProductoRepository.cs",
+                "region": {
+                  "startLine": 74,
+                  "startColumn": 13,
+                  "endLine": 77,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2486",
+          "level": "warning",
+          "message": "Handle the exception or explain in a comment why it can be ignored.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/PromocionRepository.cs",
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 13,
+                  "endLine": 44,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S108",
+          "level": "warning",
+          "message": "Either remove or fill this block of code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ProductoRepository.cs",
+                "region": {
+                  "startLine": 75,
+                  "startColumn": 13,
+                  "endLine": 77,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S108",
+          "level": "warning",
+          "message": "Either remove or fill this block of code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/PromocionRepository.cs",
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 13,
+                  "endLine": 44,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'prod' to 'us' to match the interface declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ProductoRepository.cs",
+                "region": {
+                  "startLine": 47,
+                  "startColumn": 51,
+                  "endLine": 47,
+                  "endColumn": 55
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1656",
+          "level": "warning",
+          "message": "Remove or correct this useless self-assignment.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ProductoRepository.cs",
+                "region": {
+                  "startLine": 62,
+                  "startColumn": 21,
+                  "endLine": 62,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ProductoRepository.cs",
+                "region": {
+                  "startLine": 62,
+                  "startColumn": 44,
+                  "endLine": 62,
+                  "endColumn": 64
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'sds'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ProveedorRepository.cs",
+                "region": {
+                  "startLine": 103,
+                  "startColumn": 25,
+                  "endLine": 103,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'sds'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ProductoRepository.cs",
+                "region": {
+                  "startLine": 69,
+                  "startColumn": 25,
+                  "endLine": 69,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ProductoRepository.cs",
+                "region": {
+                  "startLine": 144,
+                  "startColumn": 13,
+                  "endLine": 148,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2486",
+          "level": "warning",
+          "message": "Handle the exception or explain in a comment why it can be ignored.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ClienteRepository.cs",
+                "region": {
+                  "startLine": 82,
+                  "startColumn": 13,
+                  "endLine": 85,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S108",
+          "level": "warning",
+          "message": "Either remove or fill this block of code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ClienteRepository.cs",
+                "region": {
+                  "startLine": 83,
+                  "startColumn": 13,
+                  "endLine": 85,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'cli' to 'us' to match the interface declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ClienteRepository.cs",
+                "region": {
+                  "startLine": 51,
+                  "startColumn": 49,
+                  "endLine": 51,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1656",
+          "level": "warning",
+          "message": "Remove or correct this useless self-assignment.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ClienteRepository.cs",
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 21,
+                  "endLine": 70,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ClienteRepository.cs",
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 43,
+                  "endLine": 70,
+                  "endColumn": 62
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2486",
+          "level": "warning",
+          "message": "Handle the exception or explain in a comment why it can be ignored.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/CategoriaRepository.cs",
+                "region": {
+                  "startLine": 66,
+                  "startColumn": 13,
+                  "endLine": 69,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S108",
+          "level": "warning",
+          "message": "Either remove or fill this block of code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/CategoriaRepository.cs",
+                "region": {
+                  "startLine": 67,
+                  "startColumn": 13,
+                  "endLine": 69,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'cat' to 'us' to match the interface declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/CategoriaRepository.cs",
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 53,
+                  "endLine": 43,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'sds'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ClienteRepository.cs",
+                "region": {
+                  "startLine": 77,
+                  "startColumn": 25,
+                  "endLine": 77,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
           "ruleId": "S2737",
           "level": "warning",
           "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
@@ -4342,9 +4545,72 @@
               "resultFile": {
                 "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ProveedorRepository.cs",
                 "region": {
-                  "startLine": 180,
+                  "startLine": 179,
                   "startColumn": 13,
-                  "endLine": 183,
+                  "endLine": 182,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/CategoriaRepository.cs",
+                "region": {
+                  "startLine": 132,
+                  "startColumn": 13,
+                  "endLine": 136,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2486",
+          "level": "warning",
+          "message": "Handle the exception or explain in a comment why it can be ignored.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/CategoriaRepository.cs",
+                "region": {
+                  "startLine": 163,
+                  "startColumn": 13,
+                  "endLine": 166,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S108",
+          "level": "warning",
+          "message": "Either remove or fill this block of code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/CategoriaRepository.cs",
+                "region": {
+                  "startLine": 164,
+                  "startColumn": 13,
+                  "endLine": 166,
                   "endColumn": 14
                 }
               }
@@ -4363,10 +4629,637 @@
               "resultFile": {
                 "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ProveedorRepository.cs",
                 "region": {
-                  "startLine": 156,
+                  "startLine": 155,
                   "startColumn": 63,
-                  "endLine": 156,
+                  "endLine": 155,
                   "endColumn": 72
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2486",
+          "level": "warning",
+          "message": "Handle the exception or explain in a comment why it can be ignored.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/AlmacenRepository.cs",
+                "region": {
+                  "startLine": 80,
+                  "startColumn": 13,
+                  "endLine": 83,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2486",
+          "level": "warning",
+          "message": "Handle the exception or explain in a comment why it can be ignored.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/PromocionRepository.cs",
+                "region": {
+                  "startLine": 109,
+                  "startColumn": 13,
+                  "endLine": 112,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S108",
+          "level": "warning",
+          "message": "Either remove or fill this block of code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/PromocionRepository.cs",
+                "region": {
+                  "startLine": 110,
+                  "startColumn": 13,
+                  "endLine": 112,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S108",
+          "level": "warning",
+          "message": "Either remove or fill this block of code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/AlmacenRepository.cs",
+                "region": {
+                  "startLine": 81,
+                  "startColumn": 13,
+                  "endLine": 83,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2486",
+          "level": "warning",
+          "message": "Handle the exception or explain in a comment why it can be ignored.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ProductoRepository.cs",
+                "region": {
+                  "startLine": 177,
+                  "startColumn": 13,
+                  "endLine": 180,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'al' to 'us' to match the interface declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/AlmacenRepository.cs",
+                "region": {
+                  "startLine": 47,
+                  "startColumn": 49,
+                  "endLine": 47,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S108",
+          "level": "warning",
+          "message": "Either remove or fill this block of code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ProductoRepository.cs",
+                "region": {
+                  "startLine": 178,
+                  "startColumn": 13,
+                  "endLine": 180,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'prom' to 'us' to match the interface declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/PromocionRepository.cs",
+                "region": {
+                  "startLine": 80,
+                  "startColumn": 53,
+                  "endLine": 80,
+                  "endColumn": 57
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1656",
+          "level": "warning",
+          "message": "Remove or correct this useless self-assignment.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/PromocionRepository.cs",
+                "region": {
+                  "startLine": 95,
+                  "startColumn": 21,
+                  "endLine": 95,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/PromocionRepository.cs",
+                "region": {
+                  "startLine": 95,
+                  "startColumn": 40,
+                  "endLine": 95,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1656",
+          "level": "warning",
+          "message": "Remove or correct this useless self-assignment.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/PromocionRepository.cs",
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 21,
+                  "endLine": 96,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/PromocionRepository.cs",
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 45,
+                  "endLine": 96,
+                  "endColumn": 66
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1656",
+          "level": "warning",
+          "message": "Remove or correct this useless self-assignment.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/AlmacenRepository.cs",
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 21,
+                  "endLine": 60,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/AlmacenRepository.cs",
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 43,
+                  "endLine": 60,
+                  "endColumn": 62
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'sds'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/PromocionRepository.cs",
+                "region": {
+                  "startLine": 104,
+                  "startColumn": 25,
+                  "endLine": 104,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/PromocionRepository.cs",
+                "region": {
+                  "startLine": 181,
+                  "startColumn": 13,
+                  "endLine": 185,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'sds'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/AlmacenRepository.cs",
+                "region": {
+                  "startLine": 75,
+                  "startColumn": 25,
+                  "endLine": 75,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2486",
+          "level": "warning",
+          "message": "Handle the exception or explain in a comment why it can be ignored.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/PromocionRepository.cs",
+                "region": {
+                  "startLine": 208,
+                  "startColumn": 13,
+                  "endLine": 210,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2486",
+          "level": "warning",
+          "message": "Handle the exception or explain in a comment why it can be ignored.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/PromocionRepository.cs",
+                "region": {
+                  "startLine": 227,
+                  "startColumn": 13,
+                  "endLine": 229,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S108",
+          "level": "warning",
+          "message": "Either remove or fill this block of code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/PromocionRepository.cs",
+                "region": {
+                  "startLine": 209,
+                  "startColumn": 13,
+                  "endLine": 210,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S108",
+          "level": "warning",
+          "message": "Either remove or fill this block of code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/PromocionRepository.cs",
+                "region": {
+                  "startLine": 228,
+                  "startColumn": 13,
+                  "endLine": 229,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ClienteRepository.cs",
+                "region": {
+                  "startLine": 163,
+                  "startColumn": 13,
+                  "endLine": 167,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ClienteRepository.cs",
+                "region": {
+                  "startLine": 201,
+                  "startColumn": 13,
+                  "endLine": 205,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'cli' to 'cliente' to match the interface declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ClienteRepository.cs",
+                "region": {
+                  "startLine": 132,
+                  "startColumn": 58,
+                  "endLine": 132,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2486",
+          "level": "warning",
+          "message": "Handle the exception or explain in a comment why it can be ignored.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ReclamoRepository.cs",
+                "region": {
+                  "startLine": 218,
+                  "startColumn": 13,
+                  "endLine": 221,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S108",
+          "level": "warning",
+          "message": "Either remove or fill this block of code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ReclamoRepository.cs",
+                "region": {
+                  "startLine": 219,
+                  "startColumn": 13,
+                  "endLine": 221,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2486",
+          "level": "warning",
+          "message": "Handle the exception or explain in a comment why it can be ignored.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/PromocionRepository.cs",
+                "region": {
+                  "startLine": 247,
+                  "startColumn": 13,
+                  "endLine": 250,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S108",
+          "level": "warning",
+          "message": "Either remove or fill this block of code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/PromocionRepository.cs",
+                "region": {
+                  "startLine": 248,
+                  "startColumn": 13,
+                  "endLine": 250,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'Almacen' to 'almacen' to match the interface declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/AlmacenRepository.cs",
+                "region": {
+                  "startLine": 126,
+                  "startColumn": 57,
+                  "endLine": 126,
+                  "endColumn": 64
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2486",
+          "level": "warning",
+          "message": "Handle the exception or explain in a comment why it can be ignored.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ClienteRepository.cs",
+                "region": {
+                  "startLine": 238,
+                  "startColumn": 13,
+                  "endLine": 241,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S108",
+          "level": "warning",
+          "message": "Either remove or fill this block of code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Proyectos/NetCore/UPC_PI2_Backend/PremierBeef.Infrastructure/Repository/ClienteRepository.cs",
+                "region": {
+                  "startLine": 239,
+                  "startColumn": 13,
+                  "endLine": 241,
+                  "endColumn": 14
                 }
               }
             }
@@ -4447,6 +5340,40 @@
           "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-125",
           "properties": {
             "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1481": {
+          "id": "S1481",
+          "shortDescription": "Unused local variables should be removed",
+          "fullDescription": "If a local variable is declared but not used, it is dead code and should be removed. Doing so will improve maintainability because developers will not wonder what the variable is used for.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1481",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1656": {
+          "id": "S1656",
+          "shortDescription": "Variables should not be self-assigned",
+          "fullDescription": "There is no reason to re-assign a variable to itself. Either this statement is redundant and should be removed, or the re-assignment is a mistake and some other value or variable was intended for the assignment instead.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1656",
+          "properties": {
+            "category": "Major Bug",
             "isEnabledByDefault": true,
             "tags": [
               "C#",

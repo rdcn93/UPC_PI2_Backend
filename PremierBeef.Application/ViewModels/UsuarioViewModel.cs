@@ -29,5 +29,7 @@ namespace PremierBeef.Application.ViewModels
         public int idRol { get; set; }
         public DateTime fecRegistro { get; set; }
         public DateTime fecModificacion { get; set; }
+
+        public string nombreCompleto { get { return nombre + " " + apePaterno; } }
     }
 }

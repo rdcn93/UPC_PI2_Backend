@@ -29,7 +29,7 @@ namespace PremierBeef.Application.Services.Categoria
             return id;
         }
 
-        public async Task<int> UpdateCategoria(CategoriaModel newU)
+        public async Task<bool> UpdateCategoria(CategoriaModel newU)
         {
             Core.Entities.Categoria usuario = new Core.Entities.Categoria
             {

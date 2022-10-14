@@ -35,34 +35,35 @@ namespace PremierBeef.Test.FakeServices
             return newU.id;
         }
 
-        public async Task<int> UpdateReclamo(ReclamoModel newU)
+        public async Task<bool> UpdateReclamo(ReclamoModel newU)
         {
-            int result = 0;
+            bool result = false;
 
             try
             {
                 var existing = _reclamos.Where(a => a.id == newU.id).FirstOrDefault();
                 if (existing != null)
                 {
-                    result = 1;
+                    result = true;
                 }
             }
             catch (Exception)
             {
-                result = 0;
+                result = false;
             }
 
             return result;
         }
 
-        public async Task<int> RemoveReclamo(int id)
+        public async Task<bool> RemoveReclamo(int id)
         {
-            int result = 0;
+            bool result = false;
             var existing = _reclamos.First(a => a.id == id);
 
             if (existing != null)
             {
                 _reclamos.Remove(existing);
+                result = true;
             }
 
             return result;

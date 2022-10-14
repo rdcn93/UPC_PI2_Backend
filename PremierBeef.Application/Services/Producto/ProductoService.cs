@@ -31,7 +31,7 @@ namespace PremierBeef.Application.Services.Producto
             return id;
         }
 
-        public async Task<int> UpdateProducto(ProductoModel newU)
+        public async Task<bool> UpdateProducto(ProductoModel newU)
         {
             Core.Entities.Producto usuario = new Core.Entities.Producto
             {

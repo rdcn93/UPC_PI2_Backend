@@ -35,7 +35,7 @@ namespace PremierBeef.Application.Services.Reclamo
             return id;
         }
 
-        public async Task<int> UpdateReclamo(ReclamoModel newU)
+        public async Task<bool> UpdateReclamo(ReclamoModel newU)
         {
             Core.Entities.Reclamo usuario = new Core.Entities.Reclamo
             {
@@ -49,6 +49,7 @@ namespace PremierBeef.Application.Services.Reclamo
                 estadoReclamo = string.IsNullOrEmpty(newU.respuesta) ? (int)Constantes.ReclamoEstados.Registrado : (int)Constantes.ReclamoEstados.Resuelto,
                 estado = true,
                 fecRespuesta = string.IsNullOrEmpty(newU.respuesta) ? DateTime.Now : DateTime.Now,
+                idUsuarioRespuesta = newU.idUsuarioRespuesta
             };
 
             var result = await _reclamoRepository.UpdateReclamo(usuario);
@@ -56,7 +57,7 @@ namespace PremierBeef.Application.Services.Reclamo
             return result;
         }
 
-        public async Task<int> RemoveReclamo(int id)
+        public async Task<bool> RemoveReclamo(int id)
         {
             var result = await _reclamoRepository.RemoveReclamo(id);
 

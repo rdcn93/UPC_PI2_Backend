@@ -3,16 +3,14 @@
     public class ReporteVentas
     {
         public int id { get; set; }
-        public string detalle { get; set; }
-        public string usuarioRegistro { get; set; }
-        public string usuarioRegistroCompleto { get; set; }
-        public string fechaReclamo { get; set; }
-        public string tipoReclamo { get; set; }
-        public int pedido { get; set; }
         public string cliente { get; set; }
-        public string respuesta { get; set; }
-        public string usuarioRespuesta { get; set; }
-        public string usuarioRespuestaCompleto { get; set; }
-        public string fechaRespuesta { get; set; }
+        public string tipo_documento { get; set; }
+        public string documento { get; set; }
+        public string fecha_emision { get; set; }
+        public string tipo_comprobante { get; set; }
+        public string serie_comprobante { get; set; }
+        public decimal importe_grabado { get; set; }
+        public decimal importe_igv { get; set; }
+        public decimal importe_total { get; set; }
     }
 }
