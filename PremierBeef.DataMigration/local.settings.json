@@ -1,0 +1,12 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "DevConnection": "Server=localhost;Database=PremierBeef;Integrated Security=True;",
+    "sqldb_connection": "Server=tcp:upcpi2server.database.windows.net,1433;Database=PremierBeef;Initial Catalog=PremierBeef;Persist Security Info=False;User ID=userupcpi2;Password=Rcastaneda93$;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
+    "BlobStorageConnectionString": "DefaultEndpointsProtocol=https;AccountName=upcpi2storage;AccountKey=4IjKY1pQvizVDv59Lf7vrn1uBjby056gBD/PH3WwTLORbFV8VTk1HLVyltfKmXQlGKi7mkdJb3g8+ASt/GCYyg==;EndpointSuffix=core.windows.net",
+    "ContainerVentas": "premierbeefventas",
+    "ContainerVentasHistory": "premierbeefventashistory"
+  }
+}
