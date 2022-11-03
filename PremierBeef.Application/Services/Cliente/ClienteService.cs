@@ -44,6 +44,7 @@ namespace PremierBeef.Application.Services.Cliente
                 apeMaterno = newU.apeMaterno,
                 telefono = newU.telefono,
                 direccion = newU.direccion,
+                correo = newU.correo,
                 idTipoDocumento = newU.idTipoDocumento,
                 numeroDocumento = newU.numeroDocumento,
                 enviarPromociones = newU.enviarPromociones,

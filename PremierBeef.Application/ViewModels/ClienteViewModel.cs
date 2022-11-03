@@ -16,6 +16,7 @@ namespace PremierBeef.Application.ViewModels
             numeroDocumento = cli.numeroDocumento;
             fecRegistro = cli.fecRegistro;
             enviarPromociones = cli.enviarPromociones;
+            correo = cli.correo;
         }
 
         public int id { get; set; }
@@ -24,6 +25,7 @@ namespace PremierBeef.Application.ViewModels
         public string apeMaterno { get; set; }
         public string telefono { get; set; }
         public string direccion { get; set; }
+        public string correo { get; set; }
         public bool estado { get; set; }
         public DateTime fecRegistro { get; set; }
         public DateTime fecModificacion { get; set; }

@@ -14,6 +14,7 @@ namespace PremierBeef.Infrastructure.Models
         public string ApeMaterno { get; set; }
         public string Telefono { get; set; }
         public string Direccion { get; set; }
+        public string Correo { get; set; }
         public int IdTipoDocumento { get; set; }
         public string NumeroDocumento { get; set; }
         public bool EnviarPromociones { get; set; }

@@ -8,6 +8,7 @@
         public decimal precio { get; set; }
         public int idCategoria { get; set; }
         public int idProveedor { get; set; }
+        public bool estado { get; set; }
         public DateTime fecRegistro { get; set; }
         public DateTime fecModificacion { get; set; }
     }

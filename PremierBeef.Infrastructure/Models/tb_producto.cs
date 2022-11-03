@@ -18,7 +18,7 @@ namespace PremierBeef.Infrastructure.Models
         public int IdProveedor { get; set; }
         public DateTime FecRegistro { get; set; }
         public DateTime FecModificacion { get; set; }
-
+        public bool Estado { get; set; }
         public List<tb_promocion> promociones { get; set; }
 
     }

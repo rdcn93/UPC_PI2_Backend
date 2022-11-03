@@ -57,7 +57,7 @@ namespace PremierBeef.API.Controllers
             if (id != 0)
                 return Ok();
 
-            return BadRequest();
+            return BadRequest("Ocurrió un error al registrar el pedido");
         }
 
         [HttpPut]

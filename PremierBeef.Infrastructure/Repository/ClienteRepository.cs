@@ -25,6 +25,7 @@ namespace PremierBeef.Infrastructure.Repository
                 ApeMaterno = us.apeMaterno,
                 Telefono = us.telefono,
                 Direccion = us.direccion,
+                Correo = us.correo,
                 Estado = us.estado,
                 EnviarPromociones = us.enviarPromociones,
                 IdTipoDocumento = us.idTipoDocumento,
@@ -63,11 +64,11 @@ namespace PremierBeef.Infrastructure.Repository
                     cliente.ApeMaterno = cli.apeMaterno;
                     cliente.Telefono = cli.telefono;
                     cliente.Direccion = cli.direccion;
+                    cliente.Correo = cli.correo;
                     cliente.Estado = true;
                     cliente.EnviarPromociones = cli.enviarPromociones;
                     cliente.IdTipoDocumento = cli.idTipoDocumento;
                     cliente.NumeroDocumento = cli.numeroDocumento;
-                    cliente.FecRegistro = cliente.FecRegistro;
                     cliente.FecModificacion = DateTime.Now;
 
                     _context.clientes.Attach(cliente);
@@ -116,6 +117,7 @@ namespace PremierBeef.Infrastructure.Repository
                     telefono = us.Telefono,
                     direccion = us.Direccion,
                     estado = us.Estado,
+                    correo = us.Correo,
                     enviarPromociones = us.EnviarPromociones,
                     idTipoDocumento = us.IdTipoDocumento,
                     numeroDocumento = us.NumeroDocumento,
@@ -149,6 +151,7 @@ namespace PremierBeef.Infrastructure.Repository
                         telefono = us.Telefono,
                         direccion = us.Direccion,
                         estado = us.Estado,
+                        correo = us.Correo,
                         enviarPromociones = us.EnviarPromociones,
                         idTipoDocumento = us.IdTipoDocumento,
                         numeroDocumento = us.NumeroDocumento,
@@ -173,7 +176,7 @@ namespace PremierBeef.Infrastructure.Repository
         {
             try
             {
-                var us = _context.clientes.Where(x => x.IdTipoDocumento == cli.idTipoDocumento && x.NumeroDocumento.Trim() == cli.numeroDocumento.Trim()
+                var us = _context.clientes.Where(x => x.NumeroDocumento.Trim() == cli.numeroDocumento.Trim()
                 ).FirstOrDefault();
 
                 if (us != null)
@@ -187,6 +190,7 @@ namespace PremierBeef.Infrastructure.Repository
                         telefono = us.Telefono,
                         direccion = us.Direccion,
                         estado = us.Estado,
+                        correo = us.Correo,
                         enviarPromociones = us.EnviarPromociones,
                         idTipoDocumento = us.IdTipoDocumento,
                         numeroDocumento = us.NumeroDocumento,
@@ -227,6 +231,7 @@ namespace PremierBeef.Infrastructure.Repository
                         telefono = us.Telefono,
                         direccion = us.Direccion,
                         estado = us.Estado,
+                        correo = us.Correo,
                         enviarPromociones = us.EnviarPromociones,
                         idTipoDocumento = us.IdTipoDocumento,
                         numeroDocumento = us.NumeroDocumento,

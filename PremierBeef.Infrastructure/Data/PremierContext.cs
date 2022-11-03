@@ -6,14 +6,9 @@ namespace PremierBeef.Infrastructure.Data
 {
     public class PremierContext : DbContext
     {
-        public PremierContext()
-        {
-        }
-
         public PremierContext(DbContextOptions<PremierContext> options) : base(options)
         {
         }
-
         public DbSet<tb_usuario> usuarios { get; set; }
         public DbSet<tb_rol> roles { get; set; }
         public DbSet<tb_producto> productos { get; set; }
@@ -24,7 +19,13 @@ namespace PremierBeef.Infrastructure.Data
         public DbSet<tb_reclamo> reclamos { get; set; }
         public DbSet<tb_reclamo_tipo> reclamoTipos { get; set; }
         public DbSet<tb_tipo_documento> tipoDocumentos { get; set; }
+        public DbSet<tb_tipo_comprobante> tipoComprobantes { get; set; }
         public DbSet<tb_promocion> promociones { get; set; }
+        public DbSet<tb_venta> ventas { get; set; }
+        public DbSet<tb_pedido> pedidos { get; set; }
+        public DbSet<tb_migracion> migraciones { get; set; }
+        
+        public virtual DbSet<tb_pedido_detalle> pedidosDetalle { get; set; }
         public virtual DbSet<tb_promocion_detalle> promocionesDetalle { get; set; }
 
 
@@ -39,6 +40,7 @@ namespace PremierBeef.Infrastructure.Data
 
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(PremierContext).Assembly);
 
+            modelBuilder.Entity<tb_pedido_detalle>().HasKey(x => new { x.IdPedido, x.IdProducto });
             modelBuilder.Entity<tb_promocion_detalle>().HasKey(x => new { x.IdPromocion, x.IdProducto });
             //modelBuilder.Entity<tb_promocion>().HasMany(x => x.productos)
             //    .WithMany(x => x.promociones)

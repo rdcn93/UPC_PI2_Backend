@@ -23,6 +23,8 @@ using System.Text;
 using Microsoft.AspNetCore.Session;
 using DocumentFormat.OpenXml.Office2016.Drawing.ChartDrawing;
 using Microsoft.Extensions.Azure;
+using PremierBeef.Application.Services.Archivo;
+using PremierBeef.Application.Services.Migracion;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -37,7 +39,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.Configure<PremierBeef.Core.Entities.PasswordOptions>(options => builder.Configuration.GetSection("PasswordOptions").Bind(options));
 
 
-var connectionString = builder.Configuration.GetConnectionString("DevConnection");
+var connectionString = builder.Configuration.GetConnectionString("DevConnectionAzure");
 builder.Services.AddDbContext<PremierContext>(x => x.UseSqlServer(connectionString).UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking));
 
 #region Configuración de servicios - Inyección de Dependencias
@@ -77,6 +79,12 @@ builder.Services.AddScoped<IPromocionService, PromocionService>();
 builder.Services.AddTransient<IReporteRepository, ReporteRepository>();
 builder.Services.AddScoped<IReporteService, ReporteService>();
 
+
+builder.Services.AddScoped<IArchivoService, ArchivoService>();
+
+builder.Services.AddScoped<IMigracionService, MigracionService>();
+builder.Services.AddTransient<IMigracionRepository, MigracionRepository>();
+
 builder.Services.AddScoped<ISecurityService, SecurityService>();
 #endregion
 
@@ -90,7 +98,8 @@ builder.Services.AddCors(options =>
     options.AddPolicy("CorsPolicy", builder => { builder
         .AllowAnyOrigin()
         .AllowAnyMethod()
-        .AllowAnyHeader();
+        .AllowAnyHeader()
+        .WithExposedHeaders("x-file-name", "Content-Disposition");
     });
 });
 

@@ -1,6 +1,8 @@
 ﻿using ClosedXML.Excel;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.WindowsAzure.Storage.Blob;
+using Microsoft.WindowsAzure.Storage;
 using PremierBeef.Application.InputModel;
 using PremierBeef.Application.Services.Reporte;
 using PremierBeef.Application.ViewModels;
@@ -58,6 +60,7 @@ namespace PremierBeef.API.Controllers
                 }
             }
         }
+
 
         [HttpPost]
         [Route("ObtenerReportePedidos")]

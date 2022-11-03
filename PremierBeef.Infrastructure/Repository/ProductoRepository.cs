@@ -25,6 +25,7 @@ namespace PremierBeef.Infrastructure.Repository
                 Precio = us.precio,
                 IdCategoria = us.idCategoria,
                 IdProveedor = us.idProveedor,
+                Estado = us.estado, 
                 FecRegistro = us.fecRegistro,
                 FecModificacion = us.fecModificacion
             };
