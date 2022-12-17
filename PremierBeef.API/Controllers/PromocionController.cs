@@ -51,7 +51,7 @@ namespace PremierBeef.API.Controllers
         public async Task<IActionResult> Register([FromBody] PromocionModel userInputModel)
         {
             if(userInputModel.fecInicio > userInputModel.fecFin)
-                return NotFound("La fecha de Inicio debe ser mayor a la de Fin");
+                return BadRequest("La fecha de Inicio debe ser mayor a la de Fin");
 
             var id = await _promocionService.AddPromocion(userInputModel);
 

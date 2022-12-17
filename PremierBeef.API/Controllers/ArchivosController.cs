@@ -263,11 +263,11 @@ namespace PremierBeef.API.Controllers
 
             if (response)
             {
-                var objMigracion = _migracionService.GetMigracionByArchivo(fileName);
+                var objMigracion = await _migracionService.GetMigracionByArchivo(fileName);
 
                 if(objMigracion != null)
                 {
-                    bool delete = await _migracionService.RemoveMigracion(objMigracion.Id);
+                    bool delete = await _migracionService.RemoveMigracion(objMigracion.id);
                 }
 
                 return Ok();

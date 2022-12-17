@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace PremierBeef.Test
 {
-    [TestClass]
+    //[TestClass]
     public class ReclamoControllerTest
     {
         private readonly ReclamoController _controller;

@@ -143,6 +143,23 @@ namespace PremierBeef.Infrastructure.Repository
 
             return Task.FromResult(result);
         }
+
+        public Task<bool> ExistePedidoDetalle(int idPedido, int idProducto)
+        {
+            bool result = false;
+            var pedDet = _context.pedidosDetalle.Where(x => x.IdPedido == idPedido && x.IdProducto == idProducto).FirstOrDefault();
+
+            try
+            {
+                return Task.FromResult(pedDet == null ? false : true);
+            }
+            catch (Exception)
+            {
+                result = false;
+            }
+
+            return Task.FromResult(result);
+        }
         #endregion
     }
 }

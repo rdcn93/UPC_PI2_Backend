@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using PremierBeef.Infrastructure.Models;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Xml;
 
 namespace PremierBeef.Infrastructure.Data
 {
@@ -24,7 +25,9 @@ namespace PremierBeef.Infrastructure.Data
         public DbSet<tb_venta> ventas { get; set; }
         public DbSet<tb_pedido> pedidos { get; set; }
         public DbSet<tb_migracion> migraciones { get; set; }
-        
+        public DbSet<tb_pronostico> pronosticos { get; set; }
+
+        public virtual DbSet<tb_pronostico_detalle> pronosticosDetalle { get; set; }
         public virtual DbSet<tb_pedido_detalle> pedidosDetalle { get; set; }
         public virtual DbSet<tb_promocion_detalle> promocionesDetalle { get; set; }
 
@@ -32,7 +35,12 @@ namespace PremierBeef.Infrastructure.Data
         //procedures
         [NotMapped]
         public DbSet<dbo_GetReporteReclamos> dbo_GetReporteReclamos { get; set; }
+        [NotMapped]
         public DbSet<dbo_GetReporteVentas> dbo_GetReporteVentas { get; set; }
+        [NotMapped]
+        public DbSet<dbo_GetReportePedidos> dbo_GetReportePedidos { get; set; }
+        [NotMapped]
+        public DbSet<dbo_GetReporteStock> dbo_GetReporteStock { get; set; }
         
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -47,6 +55,13 @@ namespace PremierBeef.Infrastructure.Data
             //    .UsingEntity<tb_promocion_detalle>(
             //        x => x.HasOne(x => x.Promocion).WithMany().HasForeignKey(x => x.IdPromocion),
             //        x => x.HasOne(x => x.Producto).WithMany().HasForeignKey(x => x.IdProducto));
+
+            modelBuilder
+            .Entity<dbo_GetReporteStock>(builder =>
+            {
+                builder.HasNoKey();
+            });
+
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

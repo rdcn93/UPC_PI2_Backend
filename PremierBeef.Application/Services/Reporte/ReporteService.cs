@@ -74,7 +74,7 @@ namespace PremierBeef.Application.Services.Reporte
             {
                 fecInicio = filtroModel.fecInicio,
                 fecFin = filtroModel.fecFin,
-                idPedido = filtroModel.idPedido
+                idProducto = filtroModel.idPedido
             };
             try
             {

@@ -3,16 +3,11 @@
     public class ReportePedidos
     {
         public int id { get; set; }
-        public string detalle { get; set; }
-        public string usuarioRegistro { get; set; }
-        public string usuarioRegistroCompleto { get; set; }
-        public string fechaReclamo { get; set; }
-        public string tipoReclamo { get; set; }
-        public int pedido { get; set; }
         public string cliente { get; set; }
-        public string respuesta { get; set; }
-        public string usuarioRespuesta { get; set; }
-        public string usuarioRespuestaCompleto { get; set; }
-        public string fechaRespuesta { get; set; }
+        public string documento { get; set; }
+        public string tipo_documento { get; set; }
+        public string fecha_emision { get; set; }
+        public int cantidad_productos { get; set; }
+        public decimal total { get; set; }
     }
 }

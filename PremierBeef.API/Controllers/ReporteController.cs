@@ -42,12 +42,28 @@ namespace PremierBeef.API.Controllers
             var reporte = await _reporteService.GetReporteVentas(filtro);
             //using System.Data;
             DataTable dt = new DataTable("Grid");
-            dt.Columns.AddRange(new DataColumn[2] { new DataColumn("EmpID"),
-                                     new DataColumn("EmpName") });
+            dt.Columns.AddRange(new DataColumn[9] { new DataColumn("Cliente"),
+                                        new DataColumn("Tipo Documento"), 
+                                        new DataColumn("Documento"),
+                                        new DataColumn("Fecha Emisión"),
+                                        new DataColumn("Tipo Comprobante"),
+                                        new DataColumn("Serie Comprobante"),
+                                        new DataColumn("Importe Grabado"),
+                                        new DataColumn("Importe IGV"),
+                                        new DataColumn("Importe Total")
+                                    });
 
             foreach (var emp in reporte)
             {
-                dt.Rows.Add(emp.cliente, emp.tipo_documento);
+                dt.Rows.Add(emp.cliente, 
+                    emp.tipo_documento,
+                    emp.documento,
+                    emp.fecha_emision,
+                    emp.tipo_comprobante,
+                    emp.serie_comprobante,
+                    emp.importe_grabado,
+                    emp.importe_igv,
+                    emp.importe_total);
             }
             //using ClosedXML.Excel;
             using (XLWorkbook wb = new XLWorkbook())
@@ -82,12 +98,22 @@ namespace PremierBeef.API.Controllers
             var reporte = await _reporteService.GetReportePedidos(filtro);
             //using System.Data;
             DataTable dt = new DataTable("Grid");
-            dt.Columns.AddRange(new DataColumn[2] { new DataColumn("EmpID"),
-                                     new DataColumn("EmpName") });
+            dt.Columns.AddRange(new DataColumn[6] { new DataColumn("Cliente"),
+                                        new DataColumn("Tipo Documento"), 
+                                        new DataColumn("Documento"),
+                                        new DataColumn("Fecha"),
+                                        new DataColumn("Cantidad Productos"),
+                                        new DataColumn("Total")
+                                    });
 
             foreach (var emp in reporte)
             {
-                dt.Rows.Add(emp.detalle, emp.respuesta);
+                dt.Rows.Add(emp.cliente, 
+                    emp.tipo_documento,
+                    emp.documento,
+                    emp.fecha_emision,
+                    emp.cantidad_productos,
+                    emp.total);
             }
             //using ClosedXML.Excel;
             using (XLWorkbook wb = new XLWorkbook())
@@ -124,10 +150,7 @@ namespace PremierBeef.API.Controllers
             dt.Columns.AddRange(new DataColumn[2] { new DataColumn("EmpID"),
                                      new DataColumn("EmpName") });
 
-            foreach (var emp in reporte)
-            {
-                dt.Rows.Add(emp.detalle, emp.respuesta);
-            }
+
             //using ClosedXML.Excel;
             using (XLWorkbook wb = new XLWorkbook())
             {

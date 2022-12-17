@@ -12,5 +12,6 @@ namespace PremierBeef.Core.Interfaces
         Task<int> AddPedido(Pedido us);
         Task<Pedido> GetPedidoByComprobante(string comprobante);
         Task<bool> AddPedidoDetalle(PedidoDetalle us);
+        Task<bool> ExistePedidoDetalle(int idPedido, int idProducto);
     }
 }

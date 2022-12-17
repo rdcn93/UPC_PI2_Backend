@@ -440,7 +440,9 @@ namespace PremierBeef.DataMigration
                                 numeroComprobante = dt.Rows[i]["NUMERO"].ToString(),
                                 importeGrabado = dt.Rows[i]["BASE GRAVADA"].ToString() != "" ? Convert.ToDecimal(dt.Rows[i]["BASE GRAVADA"].ToString()) : 0,
                                 importeIGV = dt.Rows[i]["IGV"].ToString() != "" ? Convert.ToDecimal(dt.Rows[i]["IGV"].ToString()) : 0,
-                                importeTotal = dt.Rows[i][8].ToString() != "" ? Convert.ToDecimal(dt.Rows[i][8].ToString()) : 0
+                                importeTotal = dt.Rows[i][8].ToString() != "" ? Convert.ToDecimal(dt.Rows[i][8].ToString()) : 0,
+                                fecRegistro = DateTime.Now,
+                                fecModificacion = DateTime.Now
                             };
 
                             ventas.Add(newVenta);
@@ -491,6 +493,8 @@ namespace PremierBeef.DataMigration
                                 idProducto = objProducto.id;
                             }
 
+                            bool existePedidoDetalle = await _pedidoRepository.ExistePedidoDetalle(pedido.id, idProducto);
+
                             PedidoDetalle newPedDetalle = new PedidoDetalle()
                             {
                                 idPedido = pedido.id,
@@ -506,10 +510,17 @@ namespace PremierBeef.DataMigration
                                 estado = true
                             };
 
-                            var resultNewPedidoDetalle = await _pedidoRepository.AddPedidoDetalle(newPedDetalle);
+                            if (existePedidoDetalle)
+                            {
 
-                            if (resultNewPedidoDetalle)
-                                totalRegistradas++;
+                            }
+                            else
+                            {
+                                var resultNewPedidoDetalle = await _pedidoRepository.AddPedidoDetalle(newPedDetalle);
+
+                                if (resultNewPedidoDetalle)
+                                    totalRegistradas++;
+                            }
                         }
                         else
                         {

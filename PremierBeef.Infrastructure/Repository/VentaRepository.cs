@@ -57,7 +57,7 @@ namespace PremierBeef.Infrastructure.Repository
         {
             try
             {
-                var us = _context.ventas.Where(x => x.ComprobanteVenta.Trim().ToLower().Equals(comprobante.ToLower())).FirstOrDefault();
+                var us = _context.ventas.Where(x => x.ComprobanteVenta.Trim().ToLower().Equals(comprobante.Trim().ToLower())).FirstOrDefault();
 
                 if (us != null)
                 {

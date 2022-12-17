@@ -19,5 +19,6 @@ namespace PremierBeef.Core.Entities
         public int totalRegistradas { get; set; }
         public int totalObservaciones { get; set; }
         public int tipoArchivo { get; set; }
+        public int idAlmacenPedido { get; set; }
     }
 }

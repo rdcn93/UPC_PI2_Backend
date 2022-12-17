@@ -57,8 +57,7 @@ namespace PremierBeef.Infrastructure.Repository
             List<ReportePedidos> reporte = new List<ReportePedidos>();
             try
             {
-                var result = _context.dbo_GetReporteReclamos.FromSqlRaw("EXEC dbo.GetReporteReclamos {0}, {1}, {2}", filtro.fecInicio, filtro.fecFin, filtro.idPedido).ToList();
-
+                var result = _context.dbo_GetReportePedidos.FromSqlRaw("EXEC dbo.GetReportePedidos {0}, {1}, {2}", filtro.fecInicio, filtro.fecFin, filtro.idPedido).ToList();
 
                 if (result != null)
                 {
@@ -67,20 +66,14 @@ namespace PremierBeef.Infrastructure.Repository
                         reporte.Add(new ReportePedidos
                         {
                             id = us.Id,
-                            detalle = us.Detalle,
-                            usuarioRegistro = us.UsuarioRegistro,
-                            usuarioRegistroCompleto = us.UsuarioRegistroCompleto,
-                            fechaReclamo = us.FechaReclamo,
-                            tipoReclamo = us.TipoReclamo,
-                            pedido = us.Pedido,
                             cliente = us.Cliente,
-                            respuesta = us.Respuesta,
-                            usuarioRespuesta = us.UsuarioRespuesta,
-                            usuarioRespuestaCompleto = us.UsuarioRespuestaCompleto,
-                            fechaRespuesta = us.FechaRespuesta
+                            documento = us.Documento,
+                            tipo_documento = us.Tipo_documento,
+                            fecha_emision = us.Fecha_emision,
+                            cantidad_productos = us.Cantidad_productos,
+                            total = us.Total
                         });
                     }
-
                 }
             }
             catch (Exception)
@@ -96,7 +89,7 @@ namespace PremierBeef.Infrastructure.Repository
             List<ReporteStock> reporte = new List<ReporteStock>();
             try
             {
-                var result = _context.dbo_GetReporteReclamos.FromSqlRaw("EXEC dbo.GetReporteReclamos {0}, {1}, {2}", filtro.fecInicio, filtro.fecFin, filtro.idPedido).ToList();
+                var result = _context.dbo_GetReporteStock.FromSqlRaw("EXEC dbo.GetReporteStock {0}, {1}, {2}, {3}", filtro.fecInicio, filtro.fecFin, filtro.producto, filtro.idProducto).ToList();
 
 
                 if (result != null)
@@ -105,21 +98,12 @@ namespace PremierBeef.Infrastructure.Repository
                     {
                         reporte.Add(new ReporteStock
                         {
-                            id = us.Id,
-                            detalle = us.Detalle,
-                            usuarioRegistro = us.UsuarioRegistro,
-                            usuarioRegistroCompleto = us.UsuarioRegistroCompleto,
-                            fechaReclamo = us.FechaReclamo,
-                            tipoReclamo = us.TipoReclamo,
-                            pedido = us.Pedido,
-                            cliente = us.Cliente,
-                            respuesta = us.Respuesta,
-                            usuarioRespuesta = us.UsuarioRespuesta,
-                            usuarioRespuestaCompleto = us.UsuarioRespuestaCompleto,
-                            fechaRespuesta = us.FechaRespuesta
+                            fecha = us.Fecha,
+                            producto = us.Producto,
+                            cantidad_Pronostico = us.Cantidad_Pronostico,
+                            cantidad_Real = us.Cantidad_Real
                         });
                     }
-
                 }
             }
             catch (Exception)
